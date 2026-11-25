@@ -1,0 +1,1367 @@
+{
+ "version": "2.0.1-stage5-1",
+ "note": "기분 전환하기 질문과 가벼운 활동. 답이나 결과를 기록·제출할 의무가 없고 점수도 없다. reviewStatus는 학생 화면에 보이지 않는다.",
+ "categories": {
+  "imagine": "상상",
+  "taste": "취향",
+  "daily": "일상",
+  "observe": "주변 관찰",
+  "move": "가벼운 움직임",
+  "recall": "즐거운 기억 떠올리기",
+  "play": "창의적인 놀이"
+ },
+ "items": [
+  {
+   "id": "rq-001",
+   "type": "question",
+   "text": "지금 순간이동할 수 있다면 어디로 가고 싶어?",
+   "category": "imagine",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-002",
+   "type": "question",
+   "text": "하루 동안 동물이 된다면 어떤 동물이 되고 싶어?",
+   "category": "imagine",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-003",
+   "type": "question",
+   "text": "나만의 작은 카페를 만든다면 어떤 모습일까?",
+   "category": "imagine",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-004",
+   "type": "question",
+   "text": "오늘 내 기분과 어울리는 노래는 무엇일까?",
+   "category": "taste",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-005",
+   "type": "question",
+   "text": "세상에 없는 아이스크림 맛을 만든다면?",
+   "category": "imagine",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-006",
+   "type": "question",
+   "text": "지금 창밖에서 가장 먼저 눈에 들어오는 것은?",
+   "category": "observe",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-007",
+   "type": "question",
+   "text": "나만의 행성을 만든다면 어떤 이름을 붙일까?",
+   "category": "imagine",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-008",
+   "type": "question",
+   "text": "최근에 발견한 재미있는 것은 무엇일까?",
+   "category": "daily",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-009",
+   "type": "question",
+   "text": "나만의 비밀 공간이 생긴다면 무엇을 넣고 싶어?",
+   "category": "imagine",
+   "version": "1.1.0",
+   "history": [
+    {
+     "version": "1.0.0",
+     "text": "내 방에 비밀 공간이 생긴다면 무엇을 넣고 싶어?",
+     "reason": "‘내 방’이 있다고 가정하지 않도록"
+    }
+   ],
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-010",
+   "type": "question",
+   "text": "내가 가장 좋아하는 냄새는 무엇일까?",
+   "category": "taste",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-011",
+   "type": "question",
+   "text": "구름 위를 걸을 수 있다면 무엇을 하고 싶어?",
+   "category": "imagine",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-012",
+   "type": "question",
+   "text": "나만의 캐릭터를 만든다면 어떤 능력을 줄까?",
+   "category": "play",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-013",
+   "type": "question",
+   "text": "한 가지 음식이 무한 리필된다면 무엇을 고를까?",
+   "category": "taste",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-014",
+   "type": "question",
+   "text": "오늘 하루를 색깔로 칠한다면 무슨 색일까?",
+   "category": "play",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-015",
+   "type": "question",
+   "text": "내가 만든 영화에 제목을 붙인다면?",
+   "category": "play",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-016",
+   "type": "question",
+   "text": "시간 여행을 할 수 있다면 언제로 가 보고 싶어?",
+   "category": "imagine",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-017",
+   "type": "question",
+   "text": "반려 로봇이 생긴다면 이름을 뭐라고 지을까?",
+   "category": "play",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-018",
+   "type": "question",
+   "text": "가장 좋아하는 계절의 냄새는 어떤 냄새야?",
+   "category": "taste",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-019",
+   "type": "question",
+   "text": "나만의 휴일을 하나 만든다면 무슨 날일까?",
+   "category": "play",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-020",
+   "type": "question",
+   "text": "새로운 색깔을 하나 만든다면 이름은?",
+   "category": "play",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-021",
+   "type": "question",
+   "text": "바닷속에 집을 짓는다면 어떤 방을 만들까?",
+   "category": "imagine",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-022",
+   "type": "question",
+   "text": "하늘을 날 수 있다면 가장 먼저 어디를 내려다볼까?",
+   "category": "imagine",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-023",
+   "type": "question",
+   "text": "하루 동안 아무 언어나 할 수 있다면 어떤 언어로 말해 볼까?",
+   "category": "imagine",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-024",
+   "type": "question",
+   "text": "내가 좋아하는 단어 하나를 고른다면?",
+   "category": "taste",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-025",
+   "type": "question",
+   "text": "오늘 본 것 중에 가장 귀여운 것은?",
+   "category": "daily",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-026",
+   "type": "question",
+   "text": "내 필통 속 물건들에게 성격이 있다면 어떨까?",
+   "category": "play",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-027",
+   "type": "question",
+   "text": "세상의 모든 고양이가 말을 한다면 무슨 말을 할까?",
+   "category": "imagine",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-028",
+   "type": "question",
+   "text": "나만의 정원을 만든다면 무엇을 심을까?",
+   "category": "imagine",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-029",
+   "type": "question",
+   "text": "오늘 저녁 메뉴를 내가 정한다면?",
+   "category": "daily",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-030",
+   "type": "question",
+   "text": "가장 좋아하는 놀이기구는 뭐야?",
+   "category": "taste",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-031",
+   "type": "question",
+   "category": "imagine",
+   "text": "구름 하나를 가져올 수 있다면 어떤 모양을 고를까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-032",
+   "type": "question",
+   "category": "imagine",
+   "text": "내 그림자가 따로 움직인다면 어디로 갈까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-033",
+   "type": "question",
+   "category": "imagine",
+   "text": "하루 동안 투명 인간이 된다면 어디에 가 보고 싶어?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "text": "하루 동안 투명 인간이 된다면 어떤 장난을 칠까? (누구도 곤란하지 않게!)",
+     "reason": "‘장난’을 묻는 질문은 다른 사람을 몰래 보거나 곤란하게 하는 상상으로 이어질 수 있음"
+    }
+   ]
+  },
+  {
+   "id": "rq-034",
+   "type": "question",
+   "category": "imagine",
+   "text": "달에 편의점이 있다면 무엇을 팔까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-035",
+   "type": "question",
+   "category": "imagine",
+   "text": "책 속 세상으로 하루 여행을 간다면 어떤 책일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-036",
+   "type": "question",
+   "category": "imagine",
+   "text": "바람에게 이름을 붙인다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-037",
+   "type": "question",
+   "category": "imagine",
+   "text": "아침마다 다른 동물이 깨워 준다면 오늘은 어떤 동물일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-038",
+   "type": "question",
+   "category": "taste",
+   "text": "요즘 꽂힌 노래 한 곡은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-039",
+   "type": "question",
+   "category": "taste",
+   "text": "가장 좋아하는 라면 끓이는 방법은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-040",
+   "type": "question",
+   "category": "taste",
+   "text": "좋아하는 색 조합은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-041",
+   "type": "question",
+   "category": "taste",
+   "text": "가장 좋아하는 빵은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-042",
+   "type": "question",
+   "category": "taste",
+   "text": "소리 내어 말하면 기분 좋은 단어는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-043",
+   "type": "question",
+   "category": "taste",
+   "text": "편의점에서 꼭 고르는 것은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-044",
+   "type": "question",
+   "category": "daily",
+   "text": "오늘 하루 중 가장 기대되는 짧은 순간은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-045",
+   "type": "question",
+   "category": "daily",
+   "text": "지금 내 주변에서 가장 반짝이는 것은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-046",
+   "type": "question",
+   "category": "daily",
+   "text": "오늘 들은 말 중 재미있었던 말은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-047",
+   "type": "question",
+   "category": "daily",
+   "text": "오늘 하루에 효과음을 넣는다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-048",
+   "type": "question",
+   "category": "daily",
+   "text": "지금 내 자리에서 보이는 가장 작은 것은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-049",
+   "type": "question",
+   "category": "play",
+   "text": "지금 기분을 이모티콘 세 개로 표현한다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-050",
+   "type": "question",
+   "category": "play",
+   "text": "내 필통에 이름을 붙인다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-051",
+   "type": "question",
+   "category": "play",
+   "text": "오늘 하루를 영화 예고편처럼 한 줄로 말한다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-052",
+   "type": "question",
+   "category": "play",
+   "text": "내가 만든 라면 이름은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-053",
+   "type": "question",
+   "category": "play",
+   "text": "새로운 인사법을 만든다면 어떤 동작일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-054",
+   "type": "question",
+   "category": "play",
+   "text": "지금 떠오르는 단어 세 개로 짧은 이야기를 만든다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-055",
+   "type": "question",
+   "category": "recall",
+   "text": "최근에 크게 웃었던 장면은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-056",
+   "type": "question",
+   "category": "recall",
+   "text": "기억에 남는 맛있는 냄새는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-057",
+   "type": "question",
+   "category": "recall",
+   "text": "어릴 때 좋아했던 놀이는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "rq-058",
+   "type": "question",
+   "category": "recall",
+   "text": "최근에 본 귀여운 동물 영상이 있다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-001",
+   "type": "activity",
+   "text": "주변에서 좋아하는 색상의 물건 찾기",
+   "category": "observe",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-002",
+   "type": "activity",
+   "text": "좋아하는 음악 떠올리기",
+   "category": "recall",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-003",
+   "type": "activity",
+   "text": "창밖의 풍경 바라보기",
+   "category": "observe",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-004",
+   "type": "activity",
+   "text": "물 한 잔 마시기",
+   "category": "move",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-005",
+   "type": "activity",
+   "text": "편안하게 몸을 움직이기",
+   "category": "move",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-006",
+   "type": "activity",
+   "text": "좋아하는 음식 상상하기",
+   "category": "recall",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-007",
+   "type": "activity",
+   "text": "오늘 보았던 재미있는 장면 떠올리기",
+   "category": "recall",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-008",
+   "type": "activity",
+   "text": "어깨를 천천히 올렸다가 툭 내려놓기",
+   "category": "move",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-009",
+   "type": "activity",
+   "text": "손바닥을 비벼 따뜻함 느껴 보기",
+   "category": "move",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-010",
+   "type": "activity",
+   "text": "지금 들리는 소리 세 가지 찾기",
+   "category": "observe",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-011",
+   "type": "activity",
+   "text": "좋아하는 장소를 마음속으로 걸어 보기",
+   "category": "recall",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-012",
+   "type": "activity",
+   "text": "낙서처럼 아무 모양이나 그려 보기",
+   "category": "play",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-013",
+   "type": "activity",
+   "text": "창문을 열 수 있다면 열고, 바깥 공기 느껴 보기",
+   "category": "observe",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "text": "창문을 열고 바깥 공기 느껴 보기",
+     "reason": "교실·건물에 따라 창문을 열 수 없거나 열면 안 되는 곳이 있음"
+    }
+   ]
+  },
+  {
+   "id": "ra-014",
+   "type": "activity",
+   "text": "기지개를 크게 켜 보기",
+   "category": "move",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-015",
+   "type": "activity",
+   "text": "좋아하는 사진 한 장 다시 보기",
+   "category": "recall",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-016",
+   "type": "activity",
+   "text": "손에 닿는 물건의 촉감 느껴 보기",
+   "category": "observe",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-017",
+   "type": "activity",
+   "text": "오늘 고마웠던 작은 일 하나 떠올리기",
+   "category": "recall",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-018",
+   "type": "activity",
+   "text": "좋아하는 노래 리듬에 맞춰 손가락 두드리기",
+   "category": "move",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-019",
+   "type": "activity",
+   "text": "하늘 색깔 살펴보기",
+   "category": "observe",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-020",
+   "type": "activity",
+   "text": "가장 편한 자세로 잠깐 앉아 있기",
+   "category": "move",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-021",
+   "type": "activity",
+   "text": "좋아하는 이야기 속 장면 떠올리기",
+   "category": "recall",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-022",
+   "type": "activity",
+   "text": "가방이나 주변에서 가장 오래된 물건 찾아보기",
+   "category": "observe",
+   "version": "1.1.0",
+   "history": [
+    {
+     "version": "1.0.0",
+     "text": "내 방에서 가장 오래된 물건 찾아보기",
+     "reason": "‘내 방’이 있다고 가정하지 않도록"
+    }
+   ],
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-023",
+   "type": "activity",
+   "text": "따뜻한 음료가 있다면 한 모금 마시기",
+   "category": "move",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "text": "따뜻한 음료 한 모금 마시기",
+     "reason": "음료가 늘 곁에 있다고 전제하지 않도록"
+    }
+   ]
+  },
+  {
+   "id": "ra-024",
+   "type": "activity",
+   "text": "발가락을 꼼지락거려 보기",
+   "category": "move",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-025",
+   "type": "activity",
+   "text": "주변에서 동그란 모양 다섯 개 찾기",
+   "category": "observe",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-026",
+   "type": "activity",
+   "category": "observe",
+   "text": "하늘에서 구름 모양 하나 찾아보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-027",
+   "type": "activity",
+   "category": "observe",
+   "text": "주변에서 초록색 물건 세 개 찾기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-028",
+   "type": "activity",
+   "category": "observe",
+   "text": "지금 느껴지는 공기의 온도 느껴 보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-029",
+   "type": "activity",
+   "category": "observe",
+   "text": "바닥에 닿은 발이나, 몸이 기대고 있는 곳의 느낌 느껴 보기",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "text": "바닥에 닿은 발의 느낌 느껴 보기",
+     "reason": "휠체어 사용 등 발이 바닥에 닿지 않는 학생도 할 수 있도록"
+    }
+   ]
+  },
+  {
+   "id": "ra-030",
+   "type": "activity",
+   "category": "observe",
+   "text": "주변에서 글자 하나를 골라 천천히 읽어 보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-031",
+   "type": "activity",
+   "category": "observe",
+   "text": "지금 들리는 가장 먼 소리 찾아보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-032",
+   "type": "activity",
+   "category": "observe",
+   "text": "손등 위로 빛이 어떻게 비치는지 바라보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-033",
+   "type": "activity",
+   "category": "move",
+   "text": "목을 천천히 좌우로 기울여 보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-034",
+   "type": "activity",
+   "category": "move",
+   "text": "두 팔을 앞으로 쭉 뻗었다가 풀기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-035",
+   "type": "activity",
+   "category": "move",
+   "text": "손목과 발목을 천천히 돌려 보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-036",
+   "type": "activity",
+   "category": "move",
+   "text": "움직이기 편하다면 자리에서 일어나 가볍게 한 바퀴 걷기",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "text": "자리에서 일어나 가볍게 한 바퀴 걷기",
+     "reason": "이동이 어려운 학생, 수업 중 일어나기 어려운 상황을 고려"
+    }
+   ]
+  },
+  {
+   "id": "ra-037",
+   "type": "activity",
+   "category": "move",
+   "text": "주먹을 꼭 쥐었다가 천천히 펴 보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-038",
+   "type": "activity",
+   "category": "move",
+   "text": "숨을 들이쉬며 어깨를 펴고, 내쉬며 내려놓기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-039",
+   "type": "activity",
+   "category": "recall",
+   "text": "가장 좋아하는 간식의 맛 떠올리기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-040",
+   "type": "activity",
+   "category": "recall",
+   "text": "즐거웠던 소풍이나 나들이 장면 떠올리기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-041",
+   "type": "activity",
+   "category": "recall",
+   "text": "최근에 들은 재미있는 이야기 떠올리기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-042",
+   "type": "activity",
+   "category": "recall",
+   "text": "좋아하는 노래의 첫 소절 마음속으로 흥얼거리기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-043",
+   "type": "activity",
+   "category": "recall",
+   "text": "기분 좋았던 날씨 하루 떠올리기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-044",
+   "type": "activity",
+   "category": "play",
+   "text": "종이에 한 줄로 끊지 않고 그림 그려 보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-045",
+   "type": "activity",
+   "category": "play",
+   "text": "눈을 감거나 다른 곳을 보면서 동그라미 그려 보기",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "text": "눈을 감고 동그라미 그려 보기",
+     "reason": "눈 감기를 전제하지 않도록"
+    }
+   ]
+  },
+  {
+   "id": "ra-046",
+   "type": "activity",
+   "category": "play",
+   "text": "주변 물건 세 개로 작은 탑 쌓아 보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-047",
+   "type": "activity",
+   "category": "play",
+   "text": "손가락으로 좋아하는 모양 그려 보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-048",
+   "type": "activity",
+   "category": "play",
+   "text": "오늘의 날씨를 그림 하나로 그려 보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-049",
+   "type": "activity",
+   "category": "play",
+   "text": "좋아하는 단어로 끝말잇기 혼자 해 보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  },
+  {
+   "id": "ra-050",
+   "type": "activity",
+   "category": "play",
+   "text": "종이를 접어 작은 모양 만들어 보기",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep"
+   }
+  }
+ ]
+}

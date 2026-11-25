@@ -1,0 +1,14 @@
+{
+ "version": 2,
+ "configured": false,
+ "note": "학교 공식 상담·신고 경로 설정 파일. 기본값은 미설정(configured: false)이며, 이 상태에서는 앱이 어떤 학교 연락처도 보여 주지 않는다. 실제 운영 학교가 확인한 공개 가능한 공식 정보만 넣는다. 학생 개인정보, 비공개 상담 정보, 공개 승인을 받지 않은 연락처, 교사 개인 연락처를 넣지 않는다. 항목마다 confirmed: true 인 것만 표시된다. 자세한 방법은 docs/SCHOOL_CONTACTS.md.",
+ "schoolName": "",
+ "verifiedBy": "",
+ "verifiedAt": "",
+ "reviewCycleMonths": 6,
+ "counselingRoom": { "location": "", "hours": "", "howTo": "" },
+ "reportBox": { "operating": false, "location": "", "howTo": "", "confirmed": false },
+ "spo": { "label": "", "phone": "", "email": "", "note": "", "confirmed": false },
+ "contacts": [],
+ "links": []
+}

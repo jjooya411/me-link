@@ -1,0 +1,6884 @@
+{
+ "version": "2.0.2-stage5-2",
+ "schema": 2,
+ "note": "5단계 질문 은행. 각 세트 = 아침 질문(morning) + 편지를 받은 뒤 질문(evening). reviewStatus는 교사·상담 검토용 정보이며 학생 화면에 보이지 않습니다. 기존 ID는 바꾸지 않으며, 문장을 고친 경우 이전 문장을 history에 남깁니다. 영역은 질문을 고르게 섞기 위한 분류일 뿐 학생을 판단하는 데 쓰지 않습니다. 5-1단계 질적 검토 결과는 qualityReview(result: keep 유지 / revise 수정 권장 / priority 우선 검토 필요, grade: 학년 적합성)에 남기며 학생 화면에 보이지 않습니다. 5-2단계: 후속 질문 중 반복 형식·실천 확인형을 일부 고쳤고(eveningForm: now/link/taste/imagine/word/light), 민감한 것은 qualityReview.evening52=\"proposal\"로 검토안에 남겼습니다.",
+ "reviewStatusLabels": {
+  "expert_review_pending": "전문가 검토 전",
+  "reviewed": "검토 완료",
+  "revise": "수정 필요"
+ },
+ "freeReflection": "아침의 너에게 지금 해 주고 싶은 말이 있을까?",
+ "domains": [
+  {
+   "id": "awareness",
+   "name": "자기인식",
+   "light": false
+  },
+  {
+   "id": "understanding",
+   "name": "자기이해",
+   "light": false
+  },
+  {
+   "id": "respect",
+   "name": "자기존중",
+   "light": false
+  },
+  {
+   "id": "empathy",
+   "name": "공감",
+   "light": false
+  },
+  {
+   "id": "regulation",
+   "name": "감정 조절",
+   "light": false
+  },
+  {
+   "id": "relation",
+   "name": "관계",
+   "light": false
+  },
+  {
+   "id": "identity",
+   "name": "가치관과 정체성",
+   "light": false
+  },
+  {
+   "id": "taste",
+   "name": "관심사와 취향",
+   "light": true
+  },
+  {
+   "id": "imagine",
+   "name": "상상과 호기심",
+   "light": true
+  },
+  {
+   "id": "daily",
+   "name": "소소한 일상",
+   "light": true
+  }
+ ],
+ "questions": [
+  {
+   "id": "awareness-01",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 마음을 날씨로 표현한다면?",
+   "evening": "지금 내 마음의 날씨는 어떤 모습일까?",
+   "version": "1.1.0",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "지금 내 마음을 날씨로 표현한다면?",
+     "evening": "지금 내 마음의 날씨는 어떻게 달라졌을까?",
+     "reason": "아침과 달라졌다고 가정하지 않도록"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-02",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 아침 눈을 떴을 때 가장 먼저 든 생각은?",
+   "evening": "그 생각은 하루 동안 어디로 흘러갔을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-03",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 몸에서 가장 편안한 곳은 어디일까?",
+   "evening": "하루를 보낸 지금, 내 몸은 어떤 느낌일까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-04",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 마음을 색깔 하나로 고른다면?",
+   "evening": "저녁의 내 마음은 어떤 색에 가까울까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-05",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 내 에너지는 몇 칸쯤 채워져 있는 것 같아?",
+   "evening": "오늘 내 에너지를 채워 준 것과 쓰게 한 것은 뭐였을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-06",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "요즘 내가 자주 떠올리는 단어 하나는?",
+   "evening": "오늘도 그 단어가 떠오른 순간이 있었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-07",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 머릿속을 가장 많이 채우고 있는 생각은?",
+   "evening": "저녁이 된 지금, 머릿속을 채우고 있는 생각은 무엇일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-08",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 마음에 가장 필요한 것은 무엇일까?",
+   "evening": "지금 내 마음에 필요한 것은 아침과 같을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-09",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 마음은 시끄러운 편일까, 조용한 편일까?",
+   "evening": "저녁의 내 마음은 시끄러운 편일까, 조용한 편일까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "지금 내 마음의 소리 크기를 1부터 10까지로 말한다면?",
+     "evening": "지금 내 마음의 소리는 어느 정도일까?",
+     "reason": "1~10 숫자 척도는 감정 점수처럼 느껴질 수 있고 ‘마음의 소리 크기’는 중학생에게 추상적"
+    }
+   ]
+  },
+  {
+   "id": "awareness-10",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 아침 내 몸은 무겁게 느껴져, 가볍게 느껴져?",
+   "evening": "지금 내 몸은 어떤 느낌일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-11",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 이 순간 들리는 소리 하나는?",
+   "evening": "오늘 기억에 남는 소리가 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-12",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 마음을 맛으로 표현한다면? (단맛, 짠맛, 싱거운 맛…)",
+   "evening": "지금 내 마음은 어떤 맛에 가까울까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-13",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 표정에 이름을 붙인다면?",
+   "evening": "지금 내 표정은 어떤 모습일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-14",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 아침 나는 몇 퍼센트쯤 깨어 있는 것 같아?",
+   "evening": "지금의 나는 얼마나 깨어 있는 것 같아?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-15",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 마음속에 여러 감정이 섞여 있다면 어떤 것들일까?",
+   "evening": "오늘 하루 동안 지나간 감정들을 떠올려 볼까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-16",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 어깨나 손에 힘이 들어가 있는 곳이 있을까?",
+   "evening": "지금 내 몸에서 힘을 빼고 싶은 곳은 어디일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-17",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 아침 내 마음을 동물로 표현한다면?",
+   "evening": "지금의 내 마음은 어떤 동물에 가까울까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-18",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내가 가장 신경 쓰고 있는 일 하나는?",
+   "evening": "그 일은 지금 내 마음에서 어느 만큼의 자리를 차지하고 있을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-19",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 하루의 첫 느낌을 한 단어로 말한다면?",
+   "evening": "오늘 하루를 마무리하는 한 단어는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-20",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 마음은 어제, 오늘, 내일 중 어디에 머물고 있을까?",
+   "evening": "오늘 내 마음은 주로 어디에 머물렀을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-21",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "숨을 한 번 쉬어 봐도 좋고, 그냥 있어도 좋아. 지금 내 몸은 어떤 느낌이야?",
+   "evening": "지금 내 몸은 아침과 비슷한 느낌일까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "숨을 한 번 쉬어 볼까? 지금 숨은 어떻게 느껴져?",
+     "evening": "지금 쉬는 숨은 아침과 비슷할까?",
+     "reason": "숨에 집중하라는 안내는 불안·호흡기 질환이 있는 학생에게 불편할 수 있음. 하지 않아도 되는 선택을 문장 안에 넣음"
+    }
+   ]
+  },
+  {
+   "id": "awareness-22",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 가장 크게 느껴지는 감각은 무엇일까? (소리, 빛, 온도…)",
+   "evening": "오늘 가장 기억에 남는 감각은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-23",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "요즘 나를 자주 찾아오는 감정이 있다면?",
+   "evening": "오늘도 그 감정이 찾아왔을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-24",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 마음을 계절로 표현한다면?",
+   "evening": "지금 내 마음은 어떤 계절에 가까울까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-25",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 마음의 속도는 빠른 편일까, 느린 편일까?",
+   "evening": "오늘 내 마음의 속도는 어땠을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-26",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 아침 가장 먼저 눈에 들어온 것은?",
+   "evening": "오늘 가장 오래 바라본 것은 무엇일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-27",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 나는 배고픈지, 졸린지, 괜찮은지 살펴볼까?",
+   "evening": "지금 내 몸에게 필요한 건 뭘까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-28",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 내 마음의 날씨 예보를 해 본다면?",
+   "evening": "오늘 내 마음의 날씨는 예보와 어떻게 같고 달랐을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-29",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 마음을 노래 한 곡으로 고른다면?",
+   "evening": "지금의 마음에는 어떤 노래가 어울릴까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-30",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 나를 둘러싼 공간의 분위기는 어때?",
+   "evening": "오늘 가장 편안했던 공간은 어디였을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-31",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 마음에서 가장 큰 목소리를 내는 감정은?",
+   "evening": "지금 가장 큰 목소리를 내는 감정은 무엇일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-32",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 아침 내 마음을 한 문장으로 적는다면?",
+   "evening": "지금 내 마음을 한 문장으로 적는다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-33",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 손에 닿는 것은 어떤 느낌이야?",
+   "evening": "오늘 손끝에 닿았던 것 중 기억나는 것은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-34",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘은 조용히 있고 싶은 날일까, 이야기하고 싶은 날일까?",
+   "evening": "오늘의 나는 어느 쪽에 가까웠을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-35",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 마음에 이름표를 붙인다면?",
+   "evening": "저녁의 내 마음에는 어떤 이름표가 어울릴까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-36",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 가장 먼저 떠오르는 장면은?",
+   "evening": "지금 떠오르는 장면은?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "눈을 감으면 지금 가장 먼저 떠오르는 장면은?",
+     "evening": "지금 눈을 감으면 떠오르는 장면은?",
+     "reason": "‘눈을 감으면’은 눈 감기를 전제함. 눈을 감는 것이 불편한 학생이 있음"
+    }
+   ]
+  },
+  {
+   "id": "awareness-37",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "요즘 잠은 충분히 자고 있는 것 같아?",
+   "evening": "오늘 밤 나에게 필요한 쉼은 어떤 모습일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-38",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 내 마음의 온도는 따뜻한 쪽일까, 시원한 쪽일까?",
+   "evening": "지금 내 마음의 온도는 어떨까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-39",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 나에게 가장 크게 다가오는 일정이나 일은?",
+   "evening": "그 일을 떠올리는 지금, 마음은 어때?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-40",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 가장 하고 싶지 않은 것은?",
+   "evening": "지금 하고 싶지 않은 것은 아침과 같을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-41",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 마음을 풍경 하나로 그린다면?",
+   "evening": "지금 내 마음은 어떤 풍경일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-42",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 아침 나에게 들려주고 싶은 소리는? (빗소리, 음악, 조용함…)",
+   "evening": "지금 나에게 어울리는 소리는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-43",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 마음이 조금 흔들린다면, 흔들리게 하는 것은 무엇일까?",
+   "evening": "지금 내 마음은 아침과 비교해 어떤 상태일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-44",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금 느끼는 감정을 몸의 어디에서 느끼고 있을까?",
+   "evening": "오늘 감정이 몸으로 느껴진 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "awareness-45",
+   "domain": "awareness",
+   "type": "reflect",
+   "light": false,
+   "morning": "‘지금 여기’에 있는 나를 불러 볼까? 지금의 나는 어떤 모습이야?",
+   "evening": "하루를 보낸 지금의 나는 어떤 모습일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-01",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "어젯밤 잠들기 전까지 마음에 남아 있던 것은?",
+   "evening": "그 마음은 지금 어떤 모습일까?",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "어젯밤 잠들기 전까지 마음에 남아 있던 것은?",
+     "evening": "그 마음은 오늘 하루 동안 어떻게 변했을까?",
+     "reason": "저녁 질문이 마음이 ‘변했을 것’을 전제함"
+    }
+   ]
+  },
+  {
+   "id": "understanding-02",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 어떤 순간에 시간이 빨리 간다고 느낄까?",
+   "evening": "오늘 시간이 빨리 갔던 순간이 있었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-03",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "요즘 나를 움직이게 하는 마음은 뭘까? (설렘, 걱정, 궁금함…)",
+   "evening": "오늘 그 마음은 나를 어디로 데려갔을까?",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "요즘 나를 가장 많이 움직이게 하는 마음은 뭘까?",
+     "evening": "오늘 그 마음은 나를 어디로 데려갔을까?",
+     "reason": "‘나를 움직이게 하는 마음’은 중학생에게 추상적. 예시를 더해 이해를 도움"
+    }
+   ]
+  },
+  {
+   "id": "understanding-04",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 지칠 때 혼자 있고 싶은 편일까, 누군가와 있고 싶은 편일까?",
+   "evening": "지금의 나에게는 어느 쪽이 더 편할까?",
+   "version": "1.1.1",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "나는 지칠 때 혼자 있고 싶은 편일까, 누군가와 있고 싶은 편일까?",
+     "evening": "오늘의 나는 어느 쪽에 더 가까웠을까?",
+     "reason": "아침 질문과 자연스럽게 이어지도록"
+    },
+    {
+     "version": "1.1.0",
+     "morning": "나는 지칠 때 혼자 있고 싶은 편일까, 누군가와 있고 싶은 편일까?",
+     "evening": "오늘의 나는 어느 쪽에 더 가까웠을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: awareness-34와 거의 같은 문장"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "eveningForm": "now"
+  },
+  {
+   "id": "understanding-05",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 기대되는 일이 하나 있다면?",
+   "evening": "기대했던 일은 생각했던 것과 어떻게 같고 달랐을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-06",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "요즘 내가 자꾸 궁금해지는 나의 모습이 있다면?",
+   "evening": "오늘 그 모습에 대해 조금 더 알게 된 게 있을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "고등학생"
+   }
+  },
+  {
+   "id": "understanding-07",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 어떤 순간에 가장 나답다고 느낄까?",
+   "evening": "오늘 나다웠던 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-08",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 유독 신경 쓰는 것은 무엇일까?",
+   "evening": "오늘 그것이 마음에 걸린 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-09",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "혼자 있는 시간이 좋을 때와 누군가와 함께 있고 싶을 때는 언제일까?",
+   "evening": "오늘은 어떤 시간이 더 필요했을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-10",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 새로운 일을 시작할 때 어떤 마음이 들까?",
+   "evening": "오늘 처음 해 본 일이나 처음 느낀 마음이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-11",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 칭찬을 들으면 어떤 기분이 들까?",
+   "evening": "지금의 나에게 칭찬 한마디를 건넨다면? 떠오르지 않으면 넘어가도 돼.",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "나는 칭찬을 들으면 어떤 기분이 들까?",
+     "evening": "오늘 들은 말 중 마음에 남은 말이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: ‘오늘 마음에 남은 말’ 질문이 세 개 겹침(empathy-01, understanding-34)"
+    }
+   ],
+   "eveningForm": "word"
+  },
+  {
+   "id": "understanding-12",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 어떤 상황에서 긴장이 될까?",
+   "evening": "오늘 긴장했던 순간이 있었다면, 지금 떠올리면 어떤 마음이 들어?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "나는 어떤 상황에서 긴장이 될까?",
+     "evening": "오늘 긴장했던 순간이 있었다면, 그때 나는 어떻게 했을까?",
+     "reason": "저녁 질문 ‘그때 나는 어떻게 했을까?’는 대처 행동을 돌아보며 평가하게 할 수 있음"
+    }
+   ]
+  },
+  {
+   "id": "understanding-13",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 결정을 빨리 하는 편일까, 오래 고민하는 편일까?",
+   "evening": "오늘 내린 작은 결정 하나를 떠올려 볼까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-14",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "내 기분이 좋아질 때 나타나는 나만의 신호는?",
+   "evening": "오늘 그런 신호가 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-15",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 계획을 세우는 게 편할까, 그때그때 하는 게 편할까?",
+   "evening": "오늘의 나는 어떤 방식으로 하루를 보냈을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-16",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "요즘 내가 자주 하는 말버릇이 있다면?",
+   "evening": "오늘도 그 말이 나왔을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-17",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 어떤 장소에서 마음이 편해질까?",
+   "evening": "오늘 머문 곳 중 편안했던 곳이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-18",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "어떤 일을 미루고 싶어질 때, 그 마음 안에는 무엇이 있을까?",
+   "evening": "오늘 그런 마음이 들었다면, 그 마음은 무엇을 말하고 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "고등학생"
+   }
+  },
+  {
+   "id": "understanding-19",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 좋아하는 나의 습관은?",
+   "evening": "오늘 그 습관이 나와 함께했을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-20",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 지칠 때 어떤 모습이 될까?",
+   "evening": "오늘 조금 지친 순간이 있었다면 언제였을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-21",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "어떤 말을 들으면 나는 힘이 날까?",
+   "evening": "오늘 그런 말을 듣거나 떠올린 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "understanding-22",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "기분이 가라앉을 때 나는 무엇을 하고 싶어질까?",
+   "evening": "지금 하고 싶은 일은 무엇일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-23",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 어떤 때 ‘잘 모르겠다’는 마음이 들까?",
+   "evening": "오늘 잘 모르겠던 일이 있었다면, 지금은 어떻게 느껴져?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-24",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "요즘 내 마음을 가장 많이 차지하는 고민에 이름을 붙인다면?",
+   "evening": "그 고민은 오늘 나와 어떻게 함께했을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-25",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 아침형일까, 저녁형일까?",
+   "evening": "오늘 내가 가장 또렷했던 시간은 언제였을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-26",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "기분이 좋을 때와 아닐 때, 나는 어떻게 다르게 움직일까?",
+   "evening": "오늘 내 기분은 내 행동과 어떻게 이어져 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-27",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 어떤 순간에 ‘나는 이걸 좋아하는구나’ 하고 알게 될까?",
+   "evening": "오늘 새롭게 알게 된 내 취향이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-28",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "혼자 해 보고 싶을 때와 도움을 받고 싶을 때를 나는 어떻게 알아차릴까?",
+   "evening": "오늘은 어느 쪽에 더 가까웠을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "고등학생"
+   }
+  },
+  {
+   "id": "understanding-29",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나를 화나게 하는 일 뒤에는 어떤 바람이 숨어 있을까?",
+   "evening": "오늘 마음이 불편했던 순간이 있었다면, 그때 나는 무엇을 바랐을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "고등학생"
+   }
+  },
+  {
+   "id": "understanding-30",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 무언가를 기다리는 시간이 편할까, 답답할까?",
+   "evening": "오늘 기다린 것이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-31",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나도 모르게 다른 사람과 나를 비교하게 될 때, 내 마음은 무엇을 바라고 있을까?",
+   "evening": "지금 그 마음에게 해 주고 싶은 말이 있을까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "나도 모르게 다른 사람과 견주게 될 때, 내 마음은 무엇을 바라고 있을까?",
+     "evening": "지금 그 마음에게 해 주고 싶은 말이 있을까?",
+     "reason": "‘견주다’는 중학생에게 낯선 낱말이라 ‘비교하다’로 바꿈(반영). 비교 경험을 떠올리게 하므로 성적·외모 비교로 힘든 학생에게 무거울 수 있어 전문가 확인 필요"
+    }
+   ]
+  },
+  {
+   "id": "understanding-32",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 집중이 잘되는 시간과 장소는 언제, 어디일까?",
+   "evening": "오늘 집중이 잘된 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-33",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 새로운 사람을 만날 때 어떤 편일까?",
+   "evening": "오늘 새로 알게 된 사람이나 새로운 모습이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-34",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나에게 오래 남는 말은 어떤 말일까?",
+   "evening": "그런 말을 지금의 나에게 건넨다면 어떤 말일까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "나에게 오래 남는 말은 어떤 말일까?",
+     "evening": "오늘 기억에 남은 말이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: empathy-01과 거의 같은 문장"
+    }
+   ],
+   "eveningForm": "word"
+  },
+  {
+   "id": "understanding-35",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 나에게 기대하는 것은 무엇일까?",
+   "evening": "그 기대가 지금의 나에게 부담일까, 힘일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-36",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "요즘 내가 가장 마음을 쏟고 있는 일은?",
+   "evening": "그 일을 하는 나에게 지금 어떤 마음이 들어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-37",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 어떤 말이나 상황에서 마음이 상할까?",
+   "evening": "오늘 마음이 상한 순간이 있었다면, 지금은 어떻게 느껴져? 떠올리고 싶지 않으면 넘어가도 돼.",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "나는 어떤 순간에 마음이 쉽게 상할까?",
+     "evening": "오늘 마음이 상한 순간이 있었다면, 지금은 어떻게 느껴져?",
+     "reason": "‘쉽게 상할까’는 ‘내가 예민하다’는 자기평가로 읽힐 수 있어 ‘쉽게’를 뺌(반영). 저녁 질문은 상처받은 순간을 떠올리게 하므로 떠올리지 않아도 된다는 문장을 더함(반영). 상처 경험을 떠올리게 하는 질문 자체가 적절한지는 전문가 확인 필요"
+    }
+   ]
+  },
+  {
+   "id": "understanding-38",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 좋아하는 것과 잘하는 것은 같을까, 다를까?",
+   "evening": "좋아하는 것과 잘하는 것을 떠올리면 지금 어떤 마음이 들어?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "내가 좋아하는 것과 잘하는 것은 같을까, 다를까?",
+     "evening": "오늘 좋아하는 일과 잘하는 일 중 어떤 일을 했을까?",
+     "reason": "저녁 질문이 무엇을 했는지 확인하고 ‘잘하는 일’로 평가하게 함"
+    }
+   ]
+  },
+  {
+   "id": "understanding-39",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "위로받을 때 나는 어떤 방식이 좋을까? (말, 곁에 있어 주기, 혼자 두기…)",
+   "evening": "오늘 나에게 필요한 위로는 어떤 모습이었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-40",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나를 설레게 하는 것은 무엇일까?",
+   "evening": "오늘 설렌 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-41",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "실수했을 때 나는 나에게 어떤 말을 하는 편일까?",
+   "evening": "지금 나에게 하고 싶은 말은 무엇일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-42",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 어떤 일에 쉽게 지루해질까?",
+   "evening": "오늘 지루했던 시간이 있었다면, 그때 무엇을 했을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-43",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "요즘 내 마음이 자주 향하는 곳은 어디일까?",
+   "evening": "오늘도 그곳으로 마음이 향했을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-44",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 고마움을 느끼는 순간은 주로 언제일까?",
+   "evening": "오늘 고마움을 느낀 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "understanding-45",
+   "domain": "understanding",
+   "type": "reflect",
+   "light": false,
+   "morning": "일 년 전의 나와 지금의 나는 무엇이 달라졌을까?",
+   "evening": "오늘의 나에게서 새롭게 발견한 모습이 있을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-01",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘의 나에게 응원의 말을 건넨다면?",
+   "evening": "지금의 나에게도 같은 말을 해 주고 싶을까?",
+   "version": "1.1.0",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "오늘의 나에게 응원의 말을 건넨다면?",
+     "evening": "오늘 내가 나를 칭찬해 주고 싶은 일은?",
+     "reason": "칭찬할 일을 찾도록 요구하지 않도록"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-02",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "요즘의 내가 꾸준히 이어 가고 있는 것은? 아주 작은 것도 괜찮아.",
+   "evening": "오늘 하루를 지나온 나에게 해 주고 싶은 말은?",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "요즘의 내가 꾸준히 해 내고 있는 것은?",
+     "evening": "오늘 하루를 지나온 나에게 해 주고 싶은 말은?",
+     "reason": "‘꾸준히 해 내고 있는 것’은 내세울 만한 성취가 있어야 한다는 느낌을 줄 수 있음"
+    }
+   ]
+  },
+  {
+   "id": "respect-03",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "나를 아는 누군가가 나의 좋은 점을 말해 준다면 뭐라고 할까?",
+   "evening": "오늘 그 좋은 점이 보였던 순간이 있었을까?",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "나의 좋은 점 하나를 친구가 말해 준다면 뭐라고 할까?",
+     "evening": "오늘 그 좋은 점이 보였던 순간이 있었을까?",
+     "reason": "친구가 있다는 것을 전제함"
+    }
+   ]
+  },
+  {
+   "id": "respect-04",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "실수해도 괜찮다고 나에게 말해 준다면 어떤 말투일까?",
+   "evening": "지금 나에게 그 말투로 한마디 건넨다면?",
+   "version": "1.1.0",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "실수해도 괜찮다고 나에게 말해 준다면 어떤 말투일까?",
+     "evening": "오늘 나는 나에게 얼마나 다정했을까?",
+     "reason": "‘얼마나 다정했는지’ 평가하지 않도록"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-05",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 나를 위해 해 주고 싶은 작은 일 하나는?",
+   "evening": "지금 나에게 해 줄 수 있는 작은 일은 뭘까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-06",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 나답게 쉬는 방법은 뭘까?",
+   "evening": "그 쉬는 방법을 떠올리면 지금 어떤 기분이 들어?",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "내가 나답게 쉬는 방법은 뭘까?",
+     "evening": "오늘 잠깐이라도 쉬어 간 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 쉬었는지 확인"
+    }
+   ],
+   "eveningForm": "now"
+  },
+  {
+   "id": "respect-07",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "아무에게도 인정받지 않아도 내가 만족할 수 있는 일은 무엇일까?",
+   "evening": "그 일은 아침에 떠올렸을 때와 지금, 어떻게 느껴져?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "아무에게도 인정받지 않아도 내가 만족할 수 있는 일은 무엇일까?",
+     "evening": "오늘 그런 일을 떠올리거나 해 본 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 해 봤는지 확인"
+    }
+   ],
+   "eveningForm": "link"
+  },
+  {
+   "id": "respect-08",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내 이름을 다정하게 불러 준다면 어떤 목소리일까?",
+   "evening": "지금 그 목소리로 나를 불러 볼까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-09",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 나를 위해 지키고 싶은 작은 약속 하나는?",
+   "evening": "그 약속을 떠올리면 지금 어떤 마음이 들어? 지키지 못했어도 괜찮아.",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-10",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "잘 해낸 일이 아니라 애쓴 일을 하나 떠올린다면?",
+   "evening": "오늘 애쓴 나에게 해 주고 싶은 말은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-11",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "나에게 ‘괜찮아’라고 말해 주고 싶은 부분은 어디일까?",
+   "evening": "지금 나에게 괜찮다고 말해 줄 수 있을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-12",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 가진 작은 강점 하나는 무엇일까?",
+   "evening": "그 강점에 이름을 붙인다면?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "내가 가진 작은 강점 하나는 무엇일까?",
+     "evening": "오늘 그 강점이 나와 함께한 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 강점을 발휘했는지 확인"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "respect-13",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "남들이 몰라도 나는 알고 있는 나의 노력은?",
+   "evening": "지금 그 노력을 알아주는 한마디를 건넨다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-14",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 나를 너무 몰아붙이지 않으려면 무엇이 필요할까?",
+   "evening": "지금의 나를 조금 덜 몰아붙인다면 어떤 말을 해 주고 싶어?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "오늘 나를 너무 몰아붙이지 않으려면 무엇이 필요할까?",
+     "evening": "오늘 나에게 쉼을 준 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 쉼을 가졌는지 확인"
+    }
+   ],
+   "eveningForm": "word"
+  },
+  {
+   "id": "respect-15",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 나에게 주고 싶은 작은 선물은?",
+   "evening": "지금 나에게 그 선물을 준다면 어떤 기분일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-16",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 좋아하는 나의 목소리, 말투, 웃음 중 하나는?",
+   "evening": "오늘 그 모습이 나온 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-17",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "거절하고 싶을 때 나를 지키는 말 한마디를 만든다면?",
+   "evening": "오늘 나를 지키고 싶었던 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "respect-18",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "나에게 맞는 속도는 어떤 속도일까?",
+   "evening": "오늘 나의 속도는 어땠을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-19",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 ‘이 정도면 충분해’라고 말해 주고 싶은 일은?",
+   "evening": "지금 나에게 ‘충분해’라고 말해 줄 수 있는 일이 있을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-20",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 나를 존중한다는 건 어떤 모습일까?",
+   "evening": "아침에 떠올린 ‘나를 존중하는 모습’은 지금도 같을까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "고등학생"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "내가 나를 존중한다는 건 어떤 모습일까?",
+     "evening": "오늘 나를 존중한 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 스스로를 존중했는지 평가"
+    }
+   ],
+   "eveningForm": "link"
+  },
+  {
+   "id": "respect-21",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "다른 사람의 말 때문에 작아질 때, 나를 다시 세워 주는 생각은?",
+   "evening": "지금 나를 세워 주는 생각은 무엇일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-22",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 나에게 너무 엄격해질 때는 언제일까?",
+   "evening": "지금 나에게 조금 너그러워진다면 어떤 말을 할까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-23",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 나에게 허락하고 싶은 것 하나는? (쉬기, 천천히 하기…)",
+   "evening": "지금 나에게 허락해 주고 싶은 것은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-24",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내 몸에서 고마운 부분은 어디일까?",
+   "evening": "오늘 나를 위해 애써 준 몸에게 한마디 한다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-25",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "다른 사람과 달라서 좋은 나의 모습은?",
+   "evening": "오늘 그 모습이 드러난 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-26",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "모르는 것을 ‘모른다’고 말해도 괜찮을까? 그때 나는 어떤 마음이 들어?",
+   "evening": "‘모른다’고 말하는 나를 떠올리면 지금 어떤 마음이 들어?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "모르는 것을 ‘모른다’고 말해도 괜찮을까? 그때 나는 어떤 마음이 들어?",
+     "evening": "오늘 솔직하게 말한 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 솔직하게 말했는지 확인. 말하지 못한 날 자책할 수 있음"
+    }
+   ],
+   "eveningForm": "now"
+  },
+  {
+   "id": "respect-27",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 언제 나 자신이 자랑스러울까?",
+   "evening": "오늘 나를 조금이라도 자랑스럽게 느낀 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-28",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 지키고 싶은 나만의 쉬는 시간은?",
+   "evening": "그 쉬는 시간에 함께하고 싶은 것은? (음악, 간식, 조용함…)",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "내가 지키고 싶은 나만의 쉬는 시간은?",
+     "evening": "오늘 나에게 쉬는 시간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 쉬는 시간이 있었는지 확인"
+    }
+   ],
+   "eveningForm": "taste"
+  },
+  {
+   "id": "respect-29",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "‘완벽하지 않아도 돼’라는 말이 필요한 일이 있다면?",
+   "evening": "지금 그 일을 떠올리면 어떤 마음이 들어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-30",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘의 나를 응원해 줄 노래 한 곡은?",
+   "evening": "지금의 나에게 그 노래를 다시 들려준다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-31",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내 기분을 존중한다는 건 어떤 걸까?",
+   "evening": "지금 내 기분은 어떤 모습이야? 그대로 두어도 괜찮아.",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "내 기분을 존중한다는 건 어떤 걸까?",
+     "evening": "오늘 내 기분을 있는 그대로 둔 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 기분을 있는 그대로 두었는지 평가"
+    }
+   ],
+   "eveningForm": "now"
+  },
+  {
+   "id": "respect-32",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "나를 가장 잘 아는 사람은 누구일까? 나 자신일까?",
+   "evening": "오늘 나에 대해 새로 알게 된 게 있을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-33",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 나에게 자주 하는 말 중 바꾸고 싶은 말이 있다면?",
+   "evening": "지금 나에게 새로운 말을 건넨다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-34",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 이미 가지고 있는 좋은 것 하나는?",
+   "evening": "오늘 그 좋은 것이 떠오른 순간이 있었을까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "내가 이미 가지고 있는 좋은 것 세 가지는?",
+     "evening": "오늘 그중 하나가 떠오른 순간이 있었을까?",
+     "reason": "‘세 가지’라는 개수 요구는 기운이 없는 날 부담이 되고 못 채우면 자책할 수 있음"
+    }
+   ]
+  },
+  {
+   "id": "respect-35",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 나에게 ‘수고했어’를 미리 말해 둔다면?",
+   "evening": "지금 나에게 ‘수고했어’라고 말해 볼까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-36",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 나를 믿을 수 있는 이유 하나는?",
+   "evening": "지금 그 이유를 다시 떠올리면 어때?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "respect-37",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "다른 사람의 기대와 내가 원하는 것이 다를 때, 나는 어떻게 하고 싶을까?",
+   "evening": "지금 내가 원하는 것 하나를 적는다면?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "다른 사람의 기대와 내가 원하는 것이 다를 때, 나는 어떻게 하고 싶을까?",
+     "evening": "오늘 내가 원하는 것을 알아차린 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 알아차렸는지 확인"
+    }
+   ],
+   "eveningForm": "now"
+  },
+  {
+   "id": "respect-38",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "‘나다워서 좋다’고 느끼는 나의 취향 하나는?",
+   "evening": "그 취향을 더 즐긴다면 해 보고 싶은 것은?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "‘나다워서 좋다’고 느끼는 나의 취향 하나는?",
+     "evening": "오늘 그 취향을 즐긴 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 취향을 즐겼는지 확인"
+    }
+   ],
+   "eveningForm": "taste"
+  },
+  {
+   "id": "respect-39",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "나를 아끼는 마음을 행동으로 보여 준다면 어떤 행동일까?",
+   "evening": "그 행동 중 내일의 나에게 선물하고 싶은 것은?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "나를 아끼는 마음을 행동으로 보여 준다면 어떤 행동일까?",
+     "evening": "오늘 나를 아껴 준 행동이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 나를 아끼는 행동을 했는지 확인"
+    }
+   ],
+   "eveningForm": "link"
+  },
+  {
+   "id": "respect-40",
+   "domain": "respect",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 나에게 바라는 것은 ‘잘하기’일까, ‘편안하기’일까?",
+   "evening": "지금의 나에게는 무엇이 더 필요할까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-01",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 누군가에게 어떤 말을 듣고 싶어?",
+   "evening": "오늘 기억에 남는 말이 있었을까?",
+   "version": "1.1.1",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "오늘 친구에게 어떤 말을 듣고 싶어?",
+     "evening": "나는 오늘 누군가에게 어떤 말을 건넸을까?",
+     "reason": "아침 질문과 자연스럽게 이어지도록"
+    },
+    {
+     "version": "1.1.0",
+     "morning": "오늘 친구에게 어떤 말을 듣고 싶어?",
+     "evening": "오늘 기억에 남는 말이 있었을까?",
+     "reason": "친구가 있다는 것을 전제함"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-02",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 마주칠 사람 한 명을 떠올려 볼까? 그 사람의 하루는 어떨 것 같아?",
+   "evening": "그 사람의 하루는 내가 짐작한 것과 비슷했을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-03",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "누군가의 말에 마음이 따뜻해졌던 기억이 있다면?",
+   "evening": "오늘 누군가에게서 따뜻함을 느낀 순간이 있었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "empathy-04",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "좋아하는 사람이 기운 없어 보이면 나는 보통 어떻게 할까?",
+   "evening": "기운 없어 보이는 사람을 떠올리면 나는 어떤 마음이 들까?",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "좋아하는 사람이 기운 없어 보이면 나는 보통 어떻게 할까?",
+     "evening": "오늘 누군가의 기분을 알아챈 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 다른 사람의 기분을 알아챘는지 확인"
+    }
+   ],
+   "eveningForm": "now"
+  },
+  {
+   "id": "empathy-05",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "고마운 사람에게 짧은 쪽지를 쓴다면 누구에게, 뭐라고 쓸까?",
+   "evening": "오늘 고마운 마음이 든 사람이 있었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-06",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "나와 생각이 다른 사람의 이야기를 들을 때, 무엇이 궁금해질까?",
+   "evening": "오늘 다른 사람의 생각에서 새롭게 알게 된 게 있었을까?",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "나와 생각이 다른 친구의 이야기를 들을 때, 무엇이 궁금해질까?",
+     "evening": "오늘 다른 사람의 생각에서 새롭게 알게 된 게 있었을까?",
+     "reason": "‘생각이 다른 친구’는 친구가 있다는 전제. 대상을 넓힘"
+    }
+   ]
+  },
+  {
+   "id": "empathy-07",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "나와 취향이 다른 친구에게서 발견할 수 있는 것은 무엇일까?",
+   "evening": "그 취향 중 나도 한번 해 보고 싶은 것이 있을까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "나와 취향이 다른 친구에게서 발견할 수 있는 것은 무엇일까?",
+     "evening": "오늘 다른 사람의 취향에서 새롭게 알게 된 게 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: empathy-06과 거의 같은 문장"
+    }
+   ],
+   "eveningForm": "taste"
+  },
+  {
+   "id": "empathy-08",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "누군가 내 이야기를 잘 들어주었을 때 나는 어떤 마음이 들까?",
+   "evening": "잘 들어 주는 사람을 떠올리면 어떤 모습이 그려져?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "누군가 내 이야기를 잘 들어주었을 때 나는 어떤 마음이 들까?",
+     "evening": "오늘 누군가의 이야기를 들어 준 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 이야기를 들어 줬는지 확인"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "empathy-09",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "같은 일도 사람마다 다르게 느낄 수 있을까?",
+   "evening": "오늘 나와 다르게 느낀 사람이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-10",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "좋아하는 이야기 속 인물의 마음을 떠올려 볼까? 그 인물은 어떤 마음일까?",
+   "evening": "그 인물에게 한마디 건넨다면 무엇이라고 할까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "좋아하는 이야기 속 인물의 마음을 떠올려 볼까? 그 인물은 어떤 마음일까?",
+     "evening": "오늘 다른 사람의 마음을 짐작해 본 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 마음을 짐작해 봤는지 확인"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "empathy-11",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "누군가의 표정에서 마음을 읽어 본 적이 있다면?",
+   "evening": "오늘 기억에 남는 표정이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-12",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "말하지 않아도 마음이 전해졌던 경험이 있다면?",
+   "evening": "오늘 말없이 마음이 전해진 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-13",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "누군가 기뻐할 때 나는 어떻게 함께 기뻐할까?",
+   "evening": "누군가의 기쁜 일을 함께 기뻐하는 나는 어떤 모습일까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "누군가 기뻐할 때 나는 어떻게 함께 기뻐할까?",
+     "evening": "오늘 누군가의 기쁜 일을 함께 느낀 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 함께 기뻐했는지 확인"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "empathy-14",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 들으면 힘이 나는 말을 다른 사람에게도 건넨다면?",
+   "evening": "그 말을 지금의 나에게도 건넨다면?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "내가 들으면 힘이 나는 말을 다른 사람에게도 건넨다면?",
+     "evening": "오늘 힘이 되는 말을 건넸거나 들은 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 힘이 되는 말을 건넸는지 확인"
+    }
+   ],
+   "eveningForm": "word"
+  },
+  {
+   "id": "empathy-15",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "처음 만난 사람의 이야기를 들을 때 무엇이 궁금할까?",
+   "evening": "오늘 새롭게 알게 된 누군가의 이야기가 있을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-16",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "누군가를 돕고 싶을 때, 내가 할 수 있는 작은 일은 무엇일까?",
+   "evening": "오늘 그런 마음이 든 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-17",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "다른 사람의 하루를 하루만 살아 본다면 누구의 하루가 궁금해?",
+   "evening": "그 사람의 하루는 어땠을 것 같아?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-18",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "동물이나 식물의 마음을 상상해 본다면?",
+   "evening": "오늘 눈에 띈 생명이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-19",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "‘괜찮아?’라는 말 대신 건넬 수 있는 말에는 무엇이 있을까?",
+   "evening": "오늘 누군가에게 건네고 싶었던 말이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-20",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "나를 이해해 준 사람의 말이나 행동 중 기억나는 것이 있다면?",
+   "evening": "오늘 이해받았다고 느낀 순간이 있었을까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통",
+    "evening52": "proposal"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "나를 이해해 준 사람의 말이나 행동 중 기억나는 것은?",
+     "evening": "오늘 이해받았다고 느낀 순간이 있었을까?",
+     "reason": "나를 이해해 준 사람이 있다는 것을 전제함. ‘있다면’을 넣음"
+    }
+   ]
+  },
+  {
+   "id": "empathy-21",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "사람마다 편안한 거리가 다를 수 있다는 걸 느낀 적이 있을까?",
+   "evening": "나에게 편안한 거리는 어느 정도일까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "사람마다 편안한 거리가 다를 수 있다는 걸 느낀 적이 있을까?",
+     "evening": "오늘 서로의 거리를 존중한 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 거리를 존중했는지 평가"
+    }
+   ],
+   "eveningForm": "now"
+  },
+  {
+   "id": "empathy-22",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "다른 문화에서 자란 친구가 있다면 무엇을 물어보고 싶어?",
+   "evening": "오늘 낯설지만 흥미로운 것을 만났을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-23",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "웃음이 나는 이야기를 다른 사람과 나눌 때 어떤 기분일까?",
+   "evening": "오늘 누군가와 함께 웃은 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "empathy-24",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "누군가 나에게 고맙다고 말할 때 나는 어떤 마음이 들까?",
+   "evening": "오늘 고맙다는 말을 주고받은 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "empathy-25",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "이야기를 잘 들어 주는 사람은 어떻게 듣는 걸까?",
+   "evening": "오늘 나는 어떤 마음으로 이야기를 들었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-26",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 좋아하는 사람은 무엇을 좋아할까?",
+   "evening": "오늘 그 사람이 좋아하는 것을 떠올린 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-27",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "나와 다른 선택을 한 친구의 이유를 상상해 본다면?",
+   "evening": "그 이유를 상상해 보니 지금 어떤 생각이 들어?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "나와 다른 선택을 한 친구의 이유를 상상해 본다면?",
+     "evening": "오늘 다른 사람의 선택을 이해해 본 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 다른 사람의 선택을 이해했는지 확인"
+    }
+   ],
+   "eveningForm": "link"
+  },
+  {
+   "id": "empathy-28",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "누군가 실수했을 때, 내가 듣고 싶었던 말을 건넨다면 어떤 말일까?",
+   "evening": "그 말을 실수한 나에게도 건넬 수 있을까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "누군가 실수했을 때, 내가 듣고 싶었던 말을 건넨다면 어떤 말일까?",
+     "evening": "오늘 누군가에게 너그러웠던 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 너그러웠는지 평가"
+    }
+   ],
+   "eveningForm": "word"
+  },
+  {
+   "id": "empathy-29",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "학교나 동네에서 늘 그 자리에 계신 분들의 하루는 어떨까?",
+   "evening": "오늘 그런 분과 눈인사를 나눈 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-30",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "감정은 눈에 보이지 않는데, 우리는 어떻게 서로의 마음을 알 수 있을까?",
+   "evening": "오늘 누군가의 마음이 느껴진 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "고등학생"
+   }
+  },
+  {
+   "id": "empathy-31",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "친구가 나에게 고민을 털어놓는다면 어떤 마음으로 듣고 싶어?",
+   "evening": "듣는다는 것에 대해 오늘 새롭게 느낀 게 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-32",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 힘들 때 다른 사람이 알아주었으면 하는 것은?",
+   "evening": "오늘 내 마음을 알아준 사람이나 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "empathy-33",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "같은 노래를 들어도 사람마다 떠오르는 장면이 다를까?",
+   "evening": "그 노래를 들으면 나는 어떤 장면이 떠올라?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "같은 노래를 들어도 사람마다 떠오르는 장면이 다를까?",
+     "evening": "오늘 같은 것을 다르게 느낀 사람이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: empathy-09와 거의 같은 문장"
+    }
+   ],
+   "eveningForm": "taste"
+  },
+  {
+   "id": "empathy-34",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "누군가를 응원하고 싶을 때 나는 어떤 방법을 쓸까?",
+   "evening": "오늘 응원하고 싶은 사람이 떠올랐을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-35",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "‘왜?’ 대신 ‘어떻게 느꼈어?’라고 묻는다면 어떤 이야기가 나올까?",
+   "evening": "누군가 나에게 ‘어떻게 느꼈어?’라고 묻는다면 뭐라고 답하고 싶어?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "‘왜?’ 대신 ‘어떻게 느꼈어?’라고 묻는다면 어떤 이야기가 나올까?",
+     "evening": "오늘 누군가의 느낌을 물어본 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 물어봤는지 확인"
+    }
+   ],
+   "eveningForm": "now"
+  },
+  {
+   "id": "empathy-36",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "다른 사람의 좋은 점을 발견하는 나만의 방법은?",
+   "evening": "그 방법으로 나의 좋은 점도 찾아본다면?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "다른 사람의 좋은 점을 발견하는 나만의 방법은?",
+     "evening": "오늘 발견한 누군가의 좋은 점이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 좋은 점을 발견했는지 확인"
+    }
+   ],
+   "eveningForm": "word"
+  },
+  {
+   "id": "empathy-37",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "누군가 혼자 있고 싶어 할 때 그 마음을 어떻게 존중할 수 있을까?",
+   "evening": "나도 혼자 있고 싶을 때가 있을까? 그때 바라는 건 뭘까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "누군가 혼자 있고 싶어 할 때 그 마음을 어떻게 존중할 수 있을까?",
+     "evening": "오늘 다른 사람의 마음을 존중한 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 다른 사람의 마음을 존중했는지 평가"
+    }
+   ],
+   "eveningForm": "now"
+  },
+  {
+   "id": "empathy-38",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "나를 웃게 해 준 사람에게 마음속으로 고마움을 전한다면?",
+   "evening": "오늘 떠오른 고마운 얼굴이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-39",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "주변 어른 한 명의 하루를 상상해 본다면?",
+   "evening": "그 사람에게 오늘은 어떤 하루였을 것 같아?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "empathy-40",
+   "domain": "empathy",
+   "type": "reflect",
+   "light": false,
+   "morning": "서로 다른 생각이 함께 있을 때 좋은 점은 무엇일까?",
+   "evening": "아침에 떠올린 생각은 저녁인 지금도 같을까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "서로 다른 생각이 함께 있을 때 좋은 점은 무엇일까?",
+     "evening": "오늘 서로 다른 생각을 만난 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 다른 생각을 만났는지 확인"
+    }
+   ],
+   "eveningForm": "link"
+  },
+  {
+   "id": "regulation-01",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 마음이 불편해진다면 어떻게 표현하고 싶어?",
+   "evening": "지금 내 마음을 표현한다면 어떤 말이나 모양일까?",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "오늘 마음이 불편해진다면 어떻게 표현하고 싶어?",
+     "evening": "오늘 나는 내 감정을 어떻게 표현했을까?",
+     "reason": "저녁 질문 ‘오늘 나는 내 감정을 어떻게 표현했을까?’는 표현 방식을 평가하게 할 수 있음"
+    }
+   ]
+  },
+  {
+   "id": "regulation-02",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "마음이 복잡할 때 나를 조금 진정시켜 주는 것은?",
+   "evening": "오늘 그 방법이 떠오른 순간이 있었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-03",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "마음이 크게 출렁일 때 내 몸은 어떤 신호를 보낼까?",
+   "evening": "오늘 내 몸이 보낸 신호 중 기억나는 게 있을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-04",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "속상한 일이 생기면 나는 어디에, 혹은 누구에게 마음을 털어놓고 싶어?",
+   "evening": "오늘 마음을 털어놓을 곳이 있었을까? 이 편지도 그중 하나일 수 있어.",
+   "version": "1.1.0",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "속상한 일이 생기면 누구에게 이야기하고 싶어?",
+     "evening": "오늘 내 이야기를 들어 준 사람이 있었을까?",
+     "reason": "털어놓을 사람이 있다고 가정하지 않도록"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-05",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "의견이 다를 때 쓰고 싶은 나만의 한 문장을 만든다면?",
+   "evening": "오늘 내 생각을 말하고 싶었던 순간이 있었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "regulation-06",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "기분이 가라앉는 날, 나에게 필요한 건 뭘까?",
+   "evening": "지금의 나에게 필요한 건 뭘까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-07",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "마음이 복잡해질 때 나는 어떻게 쉬어가고 싶을까?",
+   "evening": "오늘 내 마음을 돌볼 시간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-08",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "화가 났을 때 내 마음을 안전하게 표현하는 방법은 무엇일까?",
+   "evening": "오늘 마음을 안전하게 표현한 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-09",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "누군가에게 불편한 마음을 전해야 한다면 어떻게 말하고 싶을까?",
+   "evening": "오늘 내 마음을 전하고 싶었던 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-10",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "긴장될 때 나를 조금 편하게 해 주는 방법은?",
+   "evening": "그 방법을 지금 잠깐 떠올려 보면 어떤 느낌일까? 하지 않아도 괜찮아.",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "긴장될 때 나를 조금 편하게 해 주는 방법은?",
+     "evening": "오늘 긴장을 내려놓은 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 긴장을 내려놓았는지 확인"
+    }
+   ],
+   "eveningForm": "now"
+  },
+  {
+   "id": "regulation-11",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "속상할 때 잠시 멈추는 나만의 방법이 있다면?",
+   "evening": "지금 잠시 멈춰 본다면 어떤 마음이 느껴져?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-12",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "감정이 크게 올라올 때 ‘잠깐’이라고 말할 수 있다면, 그다음엔 무엇을 하고 싶어?",
+   "evening": "오늘 그런 ‘잠깐’이 필요했던 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-13",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "마음이 불안할 때 손에 쥐고 싶은 것이 있다면?",
+   "evening": "지금 나에게 안정감을 주는 것은 무엇일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-14",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "서운한 마음이 들 때 나는 어떻게 하는 편일까?",
+   "evening": "오늘 서운한 마음이 들었다면, 지금은 어떤 마음이야?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-15",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "하고 싶은 말을 꾹 참았던 적이 있다면, 그 말은 무엇이었을까?",
+   "evening": "지금 그 말을 이 편지에 적어 볼까? 적지 않아도 괜찮아.",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-16",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "마음이 답답할 때 몸을 움직이면 어떤 기분일까?",
+   "evening": "오늘 몸을 움직인 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-17",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금의 감정에 이름을 붙여 본다면?",
+   "evening": "지금 내 감정의 이름은 아침과 같을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-18",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "걱정을 잠시 맡겨 둘 상자가 있다면 무엇을 넣어 둘까?",
+   "evening": "지금 그 상자에 넣어 두고 싶은 걱정이 있을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-19",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "‘지금 당장 대답하지 않아도 돼’라는 말이 필요한 순간은 언제일까?",
+   "evening": "오늘 시간을 두고 생각하고 싶었던 일이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-20",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "화가 날 때 나에게 필요한 거리는 어느 정도일까? (잠시 자리를 옮기기 등)",
+   "evening": "나에게 맞는 거리 두기 방법에 이름을 붙인다면?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "화가 날 때 나에게 필요한 거리는 어느 정도일까? (잠시 자리를 옮기기 등)",
+     "evening": "오늘 잠시 거리를 둔 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 거리를 두었는지 확인"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "regulation-21",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "내 마음을 진정시켜 주는 소리나 장소는?",
+   "evening": "오늘 그런 소리나 장소를 만났을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-22",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "다툼이 생겼을 때 내가 지키고 싶은 말의 선은?",
+   "evening": "그 선을 한 문장으로 적어 둔다면?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "다툼이 생겼을 때 내가 지키고 싶은 말의 선은?",
+     "evening": "오늘 말을 조심스럽게 고른 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 말을 조심스럽게 골랐는지 평가"
+    }
+   ],
+   "eveningForm": "now"
+  },
+  {
+   "id": "regulation-23",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "기분이 상했을 때 바로 반응하는 대신 할 수 있는 일은?",
+   "evening": "오늘 기분이 상했던 순간이 있었다면, 그때 나에게 필요했던 건 뭘까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "기분이 상했을 때 바로 반응하는 대신 할 수 있는 일은?",
+     "evening": "오늘 숨을 고르고 반응한 순간이 있었을까?",
+     "reason": "저녁 질문 ‘숨을 고르고 반응한 순간이 있었을까?’는 배운 기술을 실천했는지 확인하는 형태"
+    }
+   ]
+  },
+  {
+   "id": "regulation-24",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "감정을 글로 적으면 어떤 점이 달라질까?",
+   "evening": "지금 오늘의 감정을 한 줄로 적어 본다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-25",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "내 감정을 들어 줄 수 있는 것은 무엇일까? (사람, 일기, 음악…)",
+   "evening": "오늘 내 감정을 들어 준 것이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "regulation-26",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "짜증이 날 때 그 아래에 숨어 있는 마음은 무엇일까?",
+   "evening": "오늘 짜증이 난 순간이 있었다면, 그 아래에는 어떤 마음이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-27",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "실망스러운 일이 생기면 나에게 어떤 말을 해 주고 싶어?",
+   "evening": "지금 나에게 필요한 말은 무엇일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-28",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "불안한 마음이 들 때 ‘지금 여기’로 돌아오는 방법은?",
+   "evening": "지금 이 순간, 눈에 보이는 것 하나는?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "고등학생"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "불안한 마음이 들 때 ‘지금 여기’로 돌아오는 방법은?",
+     "evening": "오늘 지금 여기에 머문 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: ‘지금 여기’에 머물렀는지 확인"
+    }
+   ],
+   "eveningForm": "light"
+  },
+  {
+   "id": "regulation-29",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "감정이 지나가기를 기다려 본 적이 있다면, 어땠을까?",
+   "evening": "오늘 지나간 감정 중 기억나는 것이 있을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-30",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "갈등이 생겼을 때 도움을 청할 수 있는 사람이나 방법은?",
+   "evening": "오늘 누군가에게 도움을 청하고 싶었던 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-31",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "서로 화가 났을 때 ‘잠깐 쉬었다가 이야기하자’고 말한다면 어떻게 말할까?",
+   "evening": "오늘 대화에 쉼이 필요했던 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-32",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 감정을 표현하는 방법 중 마음에 드는 것은?",
+   "evening": "오늘 내 감정은 어떤 방식으로 드러났을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-33",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "마음이 무거울 때 덜어 내고 싶은 것 하나는?",
+   "evening": "지금 덜어 내고 싶은 것이 있을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-34",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "울고 싶을 때 울어도 괜찮을까? 그럴 때 나는 어떻게 하고 싶어?",
+   "evening": "오늘 마음껏 표현하고 싶었던 감정이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-35",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "기분이 좋을 때 그 기분을 오래 간직하는 방법은?",
+   "evening": "오늘 간직하고 싶은 기분이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-36",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "하기 싫은 일을 해야 할 때 나를 도와주는 생각은?",
+   "evening": "그 생각을 내일의 나에게 남겨 둔다면 어떤 문장일까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "하기 싫은 일을 해야 할 때 나를 도와주는 생각은?",
+     "evening": "오늘 그런 생각이 필요했던 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: regulation-12와 거의 같은 문장"
+    }
+   ],
+   "eveningForm": "link"
+  },
+  {
+   "id": "regulation-37",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "다른 사람의 감정에 휩쓸릴 것 같을 때 나를 지키는 방법은?",
+   "evening": "오늘 다른 사람의 감정과 내 감정을 구분해 본 순간이 있었을까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "고등학생"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "다른 사람의 감정에 휩쓸릴 것 같을 때 나를 지키는 방법은?",
+     "evening": "오늘 다른 사람의 감정과 내 감정을 나눠 본 순간이 있었을까?",
+     "reason": "저녁 질문의 ‘감정을 나눠 본’은 ‘함께 나누다’와 ‘구분하다’ 두 뜻으로 읽혀 모호함"
+    }
+   ]
+  },
+  {
+   "id": "regulation-38",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "마음이 조급할 때 천천히 하는 나만의 방법이 있다면?",
+   "evening": "오늘 천천히 해도 괜찮았던 일이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-39",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "마음이 출렁일 때 떠올리고 싶은 장면 하나는?",
+   "evening": "지금 그 장면을 떠올리면 어떤 느낌이야?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "regulation-40",
+   "domain": "regulation",
+   "type": "reflect",
+   "light": false,
+   "morning": "갈등이 지나간 뒤 나에게 필요한 것은 무엇일까?",
+   "evening": "지금 나에게 필요한 것이 있다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-01",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 어떤 친구가 되고 싶어?",
+   "evening": "그런 친구의 모습을 떠올리면 지금 어떤 마음이 들어?",
+   "version": "1.1.0",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "나는 어떤 친구가 되고 싶어?",
+     "evening": "오늘 나의 모습은 어땠을까?",
+     "reason": "다짐을 지켰는지 평가하지 않도록"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-02",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "함께 있으면 편안한 사람은 어떤 사람일까?",
+   "evening": "오늘 편안함을 느낀 시간이 있었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-03",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘 먼저 인사해 보고 싶은 사람이 있다면?",
+   "evening": "오늘 나눈 인사나 대화 중 기억에 남는 게 있을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-04",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "누군가와 함께 해 보고 싶은 일 하나는?",
+   "evening": "오늘 누군가와 함께해서 좋았던 순간이 있었을까?",
+   "version": "1.1.1",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "친구와 함께 해 보고 싶은 일 하나는?",
+     "evening": "오늘 누군가와 함께해서 좋았던 순간은?",
+     "reason": "좋았던 순간이 있었다고 가정하지 않도록"
+    },
+    {
+     "version": "1.1.0",
+     "morning": "친구와 함께 해 보고 싶은 일 하나는?",
+     "evening": "오늘 누군가와 함께해서 좋았던 순간이 있었을까?",
+     "reason": "친구가 있다는 것을 전제함"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-05",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "좋은 관계에 꼭 필요하다고 생각하는 것 하나는?",
+   "evening": "오늘 그런 순간을 본 적이 있었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-06",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "오늘은 혼자인 시간과 함께인 시간 중 어느 쪽이 더 필요할까?",
+   "evening": "오늘 나는 어떤 시간을 보냈을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-07",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "친구 사이에도 지켜야 할 나만의 경계가 있을까?",
+   "evening": "오늘 내 경계를 지키거나 존중받은 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-08",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 어떤 사람으로 기억되고 싶을까?",
+   "evening": "그 모습을 떠올리면 지금 어떤 마음이 들어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-09",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "친구의 수와 상관없이 나에게 소중한 관계는 어떤 관계일까?",
+   "evening": "오늘 소중하게 느낀 관계가 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-10",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "나에게 혼자만의 시간은 어떤 의미일까?",
+   "evening": "오늘 혼자만의 시간은 어땠을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-11",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "서로 존중한다는 건 어떤 모습일까?",
+   "evening": "오늘 존중받았다고 느낀 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-12",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "‘싫어’라고 말해도 관계가 괜찮을 수 있을까?",
+   "evening": "오늘 솔직한 마음을 말한 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-13",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "이야기를 나누면 시간이 빨리 가는 사람이 있다면, 어떤 점이 좋을까?",
+   "evening": "오늘 기억에 남는 대화가 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-14",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "관계에서 내가 소중히 여기는 약속은?",
+   "evening": "오늘 지켜진 약속이나 지키고 싶은 약속이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-15",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "오랜만에 연락하고 싶은 사람이 있다면?",
+   "evening": "지금 그 사람에게 마음속으로 안부를 전한다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-16",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "새로 친해지고 싶은 사람에게 처음 건넬 말은?",
+   "evening": "오늘 새로운 사람과 이야기 나눈 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-17",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "좋은 친구라면 꼭 모든 걸 함께해야 할까?",
+   "evening": "오늘 따로 또 같이 지낸 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-18",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "나를 있는 그대로 받아 주는 곳이나 사람이 있다면?",
+   "evening": "오늘 있는 그대로의 나로 있었던 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-19",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "다른 사람에게 부탁할 때 나는 어떻게 말하는 편일까?",
+   "evening": "오늘 부탁하거나 부탁받은 일이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-20",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "생각이 다른 친구와도 함께 지낼 수 있을까?",
+   "evening": "오늘 생각이 다른 사람과 함께한 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-21",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "온라인에서 대화할 때 내가 지키고 싶은 예의는?",
+   "evening": "오늘 온라인에서 기분 좋았던 말이나 장면이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-22",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 받은 친절 중 오래 기억에 남는 것은?",
+   "evening": "오늘 친절을 주고받은 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-23",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "관계가 조금 멀어지는 것도 자연스러운 일일까?",
+   "evening": "그 생각을 하면 지금 내 마음은 어때?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "priority",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-24",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "여럿이 함께하는 활동에서 나는 어떤 역할이 편할까?",
+   "evening": "오늘 누군가와 함께한 일이 있었다면, 그때 나는 어떤 마음이었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-25",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "말이 없어도 함께 있으면 편한 사람이 있다면?",
+   "evening": "오늘 조용히 함께한 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-26",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "먼저 다가가기 어려울 때 나에게 필요한 것은?",
+   "evening": "오늘 다가가고 싶었던 사람이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-27",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 생각하는 ‘곁에 있어 주는 것’은 어떤 모습일까?",
+   "evening": "오늘 누군가 곁에 있어 준 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-28",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "관계에서 나를 지치게 하는 것과 힘이 되는 것은 무엇일까?",
+   "evening": "오늘은 어떤 쪽이 더 많았을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-29",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "서로 다른 사람들이 각자의 방식으로 소중할 수 있을까?",
+   "evening": "오늘 떠오른 소중한 사람이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-30",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 좋아하는 대화의 분위기는? (진지한, 장난스러운, 조용한…)",
+   "evening": "오늘 나눈 대화는 어떤 분위기였을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "relation-31",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "다른 사람을 배려하면서도 나를 지키는 방법은?",
+   "evening": "배려하는 나와 나를 지키는 나, 지금은 어느 쪽 목소리가 더 크게 들려?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "고등학생"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "다른 사람을 배려하면서도 나를 지키는 방법은?",
+     "evening": "오늘 배려와 나 사이에서 균형을 잡은 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 균형을 잡았는지 평가"
+    }
+   ],
+   "eveningForm": "now"
+  },
+  {
+   "id": "relation-32",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "‘우리’라는 말이 따뜻하게 느껴질 때는 언제일까?",
+   "evening": "오늘 ‘우리’라는 느낌이 든 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-33",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "처음 만난 사람과 어색할 때 나는 어떻게 하는 편일까?",
+   "evening": "오늘 어색함이 풀린 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통",
+    "evening52": "proposal"
+   }
+  },
+  {
+   "id": "relation-34",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "나를 기분 좋게 하는 인사는 어떤 인사일까?",
+   "evening": "나만의 인사법을 만든다면 어떤 모습일까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "나를 기분 좋게 하는 인사는 어떤 인사일까?",
+     "evening": "오늘 기억에 남는 인사가 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: relation-13과 거의 같은 문장"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "relation-35",
+   "domain": "relation",
+   "type": "reflect",
+   "light": false,
+   "morning": "일 년 뒤에도 이어지면 좋겠는 관계는 어떤 모습일까?",
+   "evening": "지금 그 관계를 떠올리면 어떤 마음이 들어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-01",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "다른 사람의 평가와 관계없이 내가 좋아하는 나의 모습은?",
+   "evening": "오늘 내가 나답다고 느낀 순간이 있었을까?",
+   "version": "1.1.0",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "다른 사람의 평가와 관계없이 내가 좋아하는 나의 모습은?",
+     "evening": "오늘 내가 나답다고 느꼈던 순간은?",
+     "reason": "그런 순간이 있었다고 가정하지 않도록"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-02",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 소중하게 여기는 단어 세 개를 고른다면?",
+   "evening": "오늘 그 단어 중 하나와 가까웠던 순간이 있었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-03",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "10년 뒤의 나에게 묻고 싶은 질문 하나는?",
+   "evening": "오늘의 나는 그 질문에 어떻게 답할 수 있을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-04",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 꼭 지키고 싶은 것 하나는?",
+   "evening": "오늘 그것을 떠올린 순간이 있었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-05",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "요즘의 나를 설명하는 해시태그 세 개를 붙인다면?",
+   "evening": "오늘의 나에게 해시태그를 하나 더 붙인다면?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-06",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 닮고 싶은 사람의 어떤 점이 좋아?",
+   "evening": "그 점을 닮은 내 모습을 상상하면 어떤 하루일까?",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "내가 닮고 싶은 사람의 어떤 점이 좋아?",
+     "evening": "오늘 내 안에서 그 모습을 발견한 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 닮은 모습을 발견했는지 평가"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "identity-07",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "다른 사람의 기대와 상관없이 내가 하고 싶은 일은?",
+   "evening": "그 일을 하는 나를 상상하면 어떤 장면이 떠올라?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "다른 사람의 기대와 상관없이 내가 하고 싶은 일은?",
+     "evening": "오늘 그 일을 떠올린 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: identity-04와 거의 같은 문장"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "identity-08",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 소중하게 생각하는 가치 하나를 고른다면? (정직, 자유, 배려…)",
+   "evening": "그 가치를 색깔로 표현한다면?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "내가 소중하게 생각하는 가치 하나를 고른다면? (정직, 자유, 배려…)",
+     "evening": "오늘 그 가치가 떠오른 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: awareness-06, identity-26과 거의 같은 형식"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "identity-09",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "미래의 나는 어떤 하루를 보내고 있을까?",
+   "evening": "오늘의 하루는 그 하루와 어떤 점이 닮았을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-10",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 ‘이건 정말 나다’라고 느끼는 선택은?",
+   "evening": "그런 선택을 떠올리면 지금 어떤 마음이 들어?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "내가 ‘이건 정말 나다’라고 느끼는 선택은?",
+     "evening": "오늘 나다운 선택을 한 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 나다운 선택을 했는지 확인"
+    }
+   ],
+   "eveningForm": "now"
+  },
+  {
+   "id": "identity-11",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "어른이 된 내가 지금의 나에게 해 줄 것 같은 말은?",
+   "evening": "지금의 나는 그 말을 듣고 어떤 마음이 들까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-12",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "나를 소개할 때 이름 말고 꼭 넣고 싶은 것은?",
+   "evening": "오늘의 나를 소개한다면 무엇을 덧붙일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-13",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 바꾸고 싶지 않은 나의 모습은?",
+   "evening": "그 모습에게 한마디 건넨다면?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "내가 바꾸고 싶지 않은 나의 모습은?",
+     "evening": "오늘 그 모습이 드러난 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: respect-25와 같은 문장"
+    }
+   ],
+   "eveningForm": "word"
+  },
+  {
+   "id": "identity-14",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "세상에서 하나를 바꿀 수 있다면 무엇을 바꾸고 싶어?",
+   "evening": "오늘 그 생각이 떠오른 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-15",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 정한 나만의 규칙이 있다면?",
+   "evening": "오늘 그 규칙이 나를 도와준 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-16",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "직업이 아니어도 괜찮아. 언젠가 해 보고 싶은 경험은?",
+   "evening": "지금 그 경험을 떠올리면 어떤 기분이 들어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-17",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 어떤 일에 ‘옳다’고 느끼고, 어떤 일에 ‘불편하다’고 느낄까?",
+   "evening": "아침에 떠올린 ‘옳다’와 ‘불편하다’는 지금도 같을까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "고등학생"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "나는 어떤 일에 ‘옳다’고 느끼고, 어떤 일에 ‘불편하다’고 느낄까?",
+     "evening": "오늘 그런 마음이 든 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: empathy-16과 같은 문장"
+    }
+   ],
+   "eveningForm": "link"
+  },
+  {
+   "id": "identity-18",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "나에게 ‘자유’란 어떤 모습일까?",
+   "evening": "오늘 자유롭다고 느낀 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-19",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "지금의 나를 만든 경험 하나를 고른다면?",
+   "evening": "그 경험은 지금의 나와 어떻게 이어져 있을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-20",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "끝까지 해 보고 싶은 일이 있다면?",
+   "evening": "그 일을 끝까지 해 본 나를 상상하면 어떤 모습일까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "끝까지 해 보고 싶은 일이 있다면?",
+     "evening": "그 일을 떠올리는 지금, 마음은 어때?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: awareness-39와 같은 문장"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "identity-21",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 나에게 붙이고 싶은 별명은?",
+   "evening": "오늘의 나에게 어울리는 별명은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-22",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 어떤 이야기에 마음이 움직일까?",
+   "evening": "오늘 마음이 움직인 이야기가 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-23",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "앞으로 배우고 싶은 태도는? (용기, 차분함, 다정함…)",
+   "evening": "그 태도를 가진 나는 어떤 표정일까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "앞으로 배우고 싶은 태도는? (용기, 차분함, 다정함…)",
+     "evening": "오늘 그 태도를 조금이라도 느낀 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 태도를 실천했는지 확인"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "identity-24",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "나의 ‘처음’ 중 기억에 남는 것은?",
+   "evening": "오늘 새롭게 시작해 보고 싶은 것이 생겼을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-25",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "나를 표현하는 물건 하나를 고른다면?",
+   "evening": "오늘의 나를 표현하는 물건은 무엇일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-26",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "사람들에게 꼭 전하고 싶은 메시지가 있다면?",
+   "evening": "그 메시지를 한 단어로 줄인다면?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "사람들에게 꼭 전하고 싶은 메시지가 있다면?",
+     "evening": "오늘 그 메시지가 떠오른 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: identity-08과 거의 같은 형식"
+    }
+   ],
+   "eveningForm": "light"
+  },
+  {
+   "id": "identity-27",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "나는 무엇을 할 때 ‘살아 있다’는 느낌이 들까?",
+   "evening": "오늘 그런 느낌이 든 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-28",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "잘 모르지만 알아 가고 싶은 세계는?",
+   "evening": "오늘 그 세계와 가까워진 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-29",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "나만의 ‘좋은 하루’의 조건은 무엇일까?",
+   "evening": "오늘은 그 조건 중 어떤 것이 함께했을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-30",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "미래의 나에게 꼭 남겨 두고 싶은 것은?",
+   "evening": "오늘 남겨 두고 싶은 장면이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-31",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "남들과 다른 길을 가도 괜찮다고 느낀 적이 있다면?",
+   "evening": "나만의 길에 이름을 붙인다면?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "남들과 다른 길을 가도 괜찮다고 느낀 적이 있다면?",
+     "evening": "오늘 나만의 방식을 선택한 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 실천·성취 확인형으로 읽힘: 나만의 방식을 선택했는지 확인"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "identity-32",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 중요하다고 생각하는 것들의 순서를 정해 본다면?",
+   "evening": "지금 다시 정해 본다면 순서가 달라질까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "고등학생"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "내가 중요하다고 생각하는 것들의 순서를 정해 본다면?",
+     "evening": "오늘 그 순서는 어떻게 느껴졌을까?",
+     "reason": "저녁 질문 ‘그 순서는 어떻게 느껴졌을까?’가 모호함"
+    }
+   ]
+  },
+  {
+   "id": "identity-33",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "나를 자라게 한 질문 하나는?",
+   "evening": "오늘 나에게 남은 질문이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "고등학생"
+   }
+  },
+  {
+   "id": "identity-34",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "내가 응원하는 것은? (사람, 팀, 가치…)",
+   "evening": "오늘 무언가를 응원한 순간이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "identity-35",
+   "domain": "identity",
+   "type": "reflect",
+   "light": false,
+   "morning": "일 년 뒤의 나에게 편지를 쓴다면 첫 문장은?",
+   "evening": "지금 그 첫 문장을 이어서 써 볼까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-01",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "내가 가장 좋아하는 계절과 그 이유는?",
+   "evening": "그 계절이 오면 꼭 해 보고 싶은 일이 있을까?",
+   "version": "1.1.0",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "내가 가장 좋아하는 계절과 그 이유는?",
+     "evening": "오늘 내가 좋아하는 것을 발견한 순간이 있었을까?",
+     "reason": "가벼운 질문은 가볍게 이어지도록"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-02",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "요즘 자주 듣는 노래는 어떤 분위기야?",
+   "evening": "오늘 하루에 배경음악을 붙인다면 어떤 곡일까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-03",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "하루 종일 해도 질리지 않는 일은?",
+   "evening": "그 일을 떠올리면 지금 어떤 기분이 들어?",
+   "version": "1.1.0",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "하루 종일 해도 질리지 않는 일은?",
+     "evening": "오늘 그 일을 조금이라도 할 수 있었을까?",
+     "reason": "했는지 확인하지 않도록"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-04",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "내가 아끼는 물건 하나를 고른다면?",
+   "evening": "오늘 나를 기분 좋게 한 물건이 있었을까?",
+   "version": "1.1.0",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "내 방에서 가장 좋아하는 물건은?",
+     "evening": "오늘 나를 기분 좋게 한 물건이 있었을까?",
+     "reason": "‘내 방’이 있다고 가정하지 않도록"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-05",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 냄새 하나를 고른다면?",
+   "evening": "그 냄새가 나는 곳에 간다면 무엇을 하고 싶어?",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "좋아하는 냄새 하나를 고른다면?",
+     "evening": "오늘 기억에 남는 냄새나 소리가 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: awareness-11과 거의 같은 문장"
+    }
+   ],
+   "eveningForm": "taste"
+  },
+  {
+   "id": "taste-06",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "요즘 빠져 있는 것이 있다면?",
+   "evening": "오늘 그것에 대해 새롭게 알게 된 게 있을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-07",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "평생 한 가지 색의 옷만 입는다면 어떤 색을 고를까?",
+   "evening": "그 색 옷을 입고 가 보고 싶은 곳은?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "평생 한 가지 색의 옷만 입는다면 어떤 색을 고를까?",
+     "evening": "오늘 눈에 띈 색깔이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 가벼운 질문의 같은 형식 반복"
+    }
+   ],
+   "eveningForm": "taste"
+  },
+  {
+   "id": "taste-08",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "내가 좋아하는 공간에는 어떤 물건이 있을까?",
+   "evening": "그 공간에 하나 더 두고 싶은 것은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-09",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "가장 좋아하는 간식은?",
+   "evening": "그 간식에 어울리는 음료는?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "가장 좋아하는 간식은?",
+     "evening": "지금 먹고 싶은 간식도 같을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: daily-01과 거의 같은 문장"
+    }
+   ],
+   "eveningForm": "taste"
+  },
+  {
+   "id": "taste-10",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "비 오는 날과 맑은 날 중 더 좋아하는 날은?",
+   "evening": "오늘 날씨는 어땠을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-11",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 영화나 드라마 장르는?",
+   "evening": "오늘 하루를 장르로 정한다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-12",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "아침에 듣고 싶은 노래와 밤에 듣고 싶은 노래는 다를까?",
+   "evening": "지금 듣고 싶은 노래는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-13",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 글씨체나 펜이 있다면?",
+   "evening": "오늘 무언가를 쓴 순간 중 기억나는 것은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-14",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "가장 좋아하는 과일은?",
+   "evening": "그 과일로 만들고 싶은 음식은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-15",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "산과 바다 중 어디에 더 마음이 끌려?",
+   "evening": "그곳에 간다면 가장 먼저 무엇을 하고 싶어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-16",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 이야기 속 인물이 있다면?",
+   "evening": "그 인물과 오늘 하루를 함께 보냈다면 무엇을 했을까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "좋아하는 이야기 속 인물이 있다면?",
+     "evening": "그 인물이 오늘 나를 봤다면 뭐라고 할까?",
+     "reason": "가벼운 질문의 저녁 질문이 ‘그 인물이 나를 봤다면 뭐라고 할까’로 바뀌어, 스스로를 엄하게 보는 학생은 평가받는 상상을 하게 됨"
+    }
+   ]
+  },
+  {
+   "id": "taste-17",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "가장 좋아하는 소리는? (빗소리, 바람 소리…)",
+   "evening": "오늘 들은 소리 중 좋았던 것이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-18",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 운동이나 몸을 움직이는 방법은?",
+   "evening": "지금 해 보고 싶은 움직임은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-19",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "내가 좋아하는 하늘의 색은? (새벽, 노을, 밤…)",
+   "evening": "오늘 하늘은 어떤 색이었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-20",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 꽃이나 나무가 있다면?",
+   "evening": "오늘 눈에 띈 식물이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-21",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "따뜻한 음료와 시원한 음료 중 요즘 끌리는 쪽은?",
+   "evening": "지금 마시고 싶은 음료는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-22",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 게임이나 놀이는?",
+   "evening": "그 놀이에서 가장 좋아하는 순간은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-23",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "책, 웹툰, 영상 중 이야기를 즐기는 나만의 방법은?",
+   "evening": "요즘 즐기는 이야기 속 장면 하나는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-24",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 숫자가 있다면? 이유는?",
+   "evening": "그 숫자를 이름으로 붙인다면 무엇에 붙이고 싶어?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "좋아하는 숫자가 있다면? 이유는?",
+     "evening": "오늘 눈에 띈 숫자가 있었을까?",
+     "reason": "5-2 후속 질문 정리: 가벼운 질문의 같은 형식 반복"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "taste-25",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 계절 음식은?",
+   "evening": "그 음식을 먹으면 떠오르는 기억은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-26",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "학교나 동네에서 내가 좋아하는 장소는?",
+   "evening": "그곳에 가면 무엇을 하고 싶어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-27",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 이모티콘이나 표정 하나는?",
+   "evening": "오늘의 나를 이모티콘 하나로 고른다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-28",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "가장 좋아하는 요일은?",
+   "evening": "오늘은 무슨 요일 같은 기분이었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-29",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 동물은?",
+   "evening": "그 동물을 하루 돌본다면 무엇을 해 주고 싶어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-30",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 노래 속 단어 하나를 고른다면?",
+   "evening": "지금 마음에 어울리는 단어는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-31",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "내가 좋아하는 옷차림은?",
+   "evening": "내일 입고 싶은 옷은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-32",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "가장 좋아하는 아침 메뉴는?",
+   "evening": "지금 떠오르는 아침 메뉴는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-33",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 그림이나 사진의 분위기는?",
+   "evening": "그런 분위기의 장소에 간다면 무엇을 하고 싶어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-34",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 악기 소리는?",
+   "evening": "그 악기로 오늘을 연주한다면 어떤 곡일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-35",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 맛 조합은? (단짠, 매콤달콤…)",
+   "evening": "지금 끌리는 맛은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-36",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "어릴 때 아끼던 물건이나 놀이가 있다면?",
+   "evening": "그것을 떠올리면 어떤 기분이 들어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-37",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 스포츠나 응원하는 팀이 있다면?",
+   "evening": "그 경기를 본다면 어떤 간식이 어울릴까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-38",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "가장 좋아하는 시간대는? (아침, 오후, 밤…)",
+   "evening": "오늘 그 시간대에는 무엇을 했을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "taste-39",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "좋아하는 무늬는? (줄무늬, 물방울, 체크…)",
+   "evening": "그 무늬로 만들고 싶은 물건은?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "좋아하는 무늬는? (줄무늬, 물방울, 체크…)",
+     "evening": "오늘 눈에 띈 무늬가 있었을까?",
+     "reason": "5-2 후속 질문 정리: 가벼운 질문의 같은 형식 반복"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "taste-40",
+   "domain": "taste",
+   "type": "light",
+   "light": true,
+   "morning": "최근에 ‘이건 내 취향이야’ 하고 발견한 것은?",
+   "evening": "오늘 새로 발견한 취향이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-01",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "순간이동 능력이 생긴다면 어디로 가고 싶어?",
+   "evening": "지금 그곳에 갈 수 있다면 무엇을 하고 싶을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-02",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "무엇이든 하나를 배울 수 있다면 무엇을 배우고 싶어?",
+   "evening": "그것을 배운다면 가장 먼저 해 보고 싶은 것은?",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "무엇이든 하나를 배울 수 있다면 무엇을 배우고 싶어?",
+     "evening": "오늘 새롭게 궁금해진 것이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 가벼운 질문의 같은 형식 반복: 상상 질문이 일상 확인으로 바뀜"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "imagine-03",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "하루 동안 동물이 될 수 있다면 어떤 동물이 되고 싶어?",
+   "evening": "오늘 그 동물로 지냈다면 어떤 하루였을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-04",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "나만의 가게를 연다면 무엇을 파는 가게일까?",
+   "evening": "오늘 그 가게에 손님이 왔다면 어떤 사람이었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-05",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "하늘의 구름 하나에 이름을 붙인다면?",
+   "evening": "그 구름은 지금쯤 어디를 지나고 있을까?",
+   "version": "1.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "하늘의 구름 하나에 이름을 붙인다면?",
+     "evening": "오늘 하늘을 올려다본 순간이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 가벼운 질문의 같은 형식 반복: 상상 질문이 일상 확인으로 바뀜"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "imagine-06",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "시간을 딱 1시간 멈출 수 있다면 무엇을 할까?",
+   "evening": "오늘 시간이 잠깐 멈췄으면 했던 순간이 있었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-07",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "동물과 대화할 수 있다면 어떤 동물과 이야기하고 싶어?",
+   "evening": "그 동물에게 가장 먼저 무엇을 물어볼까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-08",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "나만의 행성을 만든다면 어떤 이름을 붙일까?",
+   "evening": "그 행성에는 어떤 것들이 있으면 좋을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-09",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "세상에 없는 아이스크림 맛을 만든다면?",
+   "evening": "그 아이스크림의 이름은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-10",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "하늘을 날 수 있다면 가장 먼저 어디를 내려다볼까?",
+   "evening": "날다가 잠깐 내려앉고 싶은 곳은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-11",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "꿈속으로 누군가를 초대할 수 있다면 어떤 꿈을 보여 줄까?",
+   "evening": "오늘 밤 꾸고 싶은 꿈은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-12",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "바닷속에 학교가 있다면 어떤 수업이 있을까?",
+   "evening": "그 학교에서 가장 듣고 싶은 수업은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "중학생"
+   }
+  },
+  {
+   "id": "imagine-13",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "내가 만든 로봇이 할 수 있는 일 하나는?",
+   "evening": "그 로봇의 이름은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-14",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "하루 동안 거인이 된다면 무엇을 해 보고 싶어?",
+   "evening": "거인의 눈으로 본 세상은 어떨까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-15",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "하루 동안 아주 작아진다면 어디를 탐험하고 싶어?",
+   "evening": "작은 나에게 가장 큰 모험은 무엇일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-16",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "시간 여행을 할 수 있다면 언제로 가 보고 싶어?",
+   "evening": "그곳에 가져가고 싶은 물건 하나는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-17",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "내가 새로운 계절을 만든다면 어떤 계절일까?",
+   "evening": "그 계절의 이름은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-18",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "마법 주문 하나를 쓸 수 있다면 어떤 주문일까?",
+   "evening": "그 주문을 오늘 어디에 쓰고 싶었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-19",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "모든 문이 다른 곳으로 이어진다면 어디로 가는 문을 열까?",
+   "evening": "그 문 너머에서 가장 먼저 만나고 싶은 것은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-20",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "나만의 놀이공원을 만든다면 어떤 놀이기구를 넣을까?",
+   "evening": "그 놀이기구의 이름은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-21",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "별자리를 새로 만든다면 어떤 모양일까?",
+   "evening": "그 별자리에 담긴 이야기는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-22",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "무지개에 새로운 색을 하나 더한다면?",
+   "evening": "그 색은 어떤 기분을 닮았을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-23",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "말하는 나무가 있다면 무엇을 물어볼까?",
+   "evening": "나무는 어떤 대답을 해 줄까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-24",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "하루 동안 날씨를 정할 수 있다면?",
+   "evening": "그 날씨에 어울리는 하루는 어떤 모습일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-25",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "내가 동화를 쓴다면 주인공은 누구일까?",
+   "evening": "그 이야기의 첫 문장은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-26",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "우주에서 하루를 보낸다면 가장 먼저 무엇을 하고 싶어?",
+   "evening": "우주에서 보내는 엽서에는 무엇을 쓸까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-27",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "세상에 없는 운동 경기를 만든다면 규칙은?",
+   "evening": "그 경기의 이름은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-28",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "나만의 박물관을 연다면 무엇을 전시할까?",
+   "evening": "가장 아끼는 전시품 하나는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-29",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "동물들이 학교에 다닌다면 어떤 동물이 반장일까?",
+   "evening": "그 학교의 급식 메뉴는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "중학생"
+   }
+  },
+  {
+   "id": "imagine-30",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "물속에서 숨 쉴 수 있다면 어디를 헤엄치고 싶어?",
+   "evening": "바닷속에서 만나고 싶은 생물은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-31",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "꿈을 배달하는 우체부가 된다면 어떤 꿈을 배달하고 싶어?",
+   "evening": "나에게 배달되었으면 하는 꿈은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-32",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "새로운 기념일을 만든다면 무엇을 기념하는 날일까?",
+   "evening": "그날 꼭 먹는 음식은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-33",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "그림 속으로 들어갈 수 있다면 어떤 그림에 들어가고 싶어?",
+   "evening": "그 그림 속에서 무엇을 하고 싶어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-34",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "세상의 소리 하나를 바꿀 수 있다면? (예: 알람 소리)",
+   "evening": "그 소리를 무엇으로 바꾸고 싶어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-35",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "내가 발명가라면 가장 먼저 만들고 싶은 물건은?",
+   "evening": "그 물건 설명서의 첫 줄은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-36",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "하루 동안 아무 언어나 할 수 있다면 어떤 언어로 말해 볼까?",
+   "evening": "그 언어로 가장 먼저 하고 싶은 말은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-37",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "비밀 기지를 만든다면 어디에 만들까?",
+   "evening": "그 기지에 꼭 두고 싶은 것은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-38",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "고양이가 사람 말을 한다면 무슨 말을 가장 많이 할까?",
+   "evening": "그 고양이에게 해 주고 싶은 대답은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-39",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "하늘에서 비 대신 무엇이 내리면 좋을까?",
+   "evening": "그날의 풍경은 어떨까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "imagine-40",
+   "domain": "imagine",
+   "type": "light",
+   "light": true,
+   "morning": "만화 속 한 장면으로 들어간다면 어떤 장면이 좋을까?",
+   "evening": "그 장면 속에서 나는 어떤 역할일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-01",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 먹고 싶은 음식은?",
+   "evening": "지금 먹고 싶은 음식도 같을까?",
+   "version": "1.1.0",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "오늘 먹고 싶은 음식은?",
+     "evening": "오늘 나를 즐겁게 해 준 소소한 것은?",
+     "reason": "가벼운 질문은 가볍게 이어지도록"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-02",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "나를 웃게 만드는 것은 뭘까?",
+   "evening": "오늘 웃음이 났던 순간이 있었을까?",
+   "version": "1.1.0",
+   "reviewStatus": "expert_review_pending",
+   "history": [
+    {
+     "version": "1.0.0",
+     "morning": "나를 웃게 만드는 것은 뭘까?",
+     "evening": "오늘 가장 크게 웃었던 순간은?",
+     "reason": "크게 웃은 일이 있었다고 가정하지 않도록"
+    }
+   ],
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-03",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 길을 걸으며 눈여겨보고 싶은 것 하나는?",
+   "evening": "오늘 길에서 발견한 작은 것이 있었을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-04",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 하루를 마치고 가장 하고 싶은 일은?",
+   "evening": "지금 가장 하고 싶은 일은 뭘까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-05",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "요즘 나의 작은 행복 하나는?",
+   "evening": "오늘의 작은 행복은 뭐였을까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-06",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 들고 나온 물건 중 마음에 드는 것은?",
+   "evening": "오늘 하루를 사진 한 장으로 남긴다면 어떤 장면일까?",
+   "version": "1.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-07",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 신고 나온 신발의 색깔은?",
+   "evening": "그 신발은 오늘 어디를 다녀왔을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-08",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "지금 창밖에서 가장 먼저 눈에 들어오는 것은?",
+   "evening": "저녁의 창밖은 어떤 모습일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-09",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 가방 안에서 가장 자주 꺼낼 것 같은 물건은?",
+   "evening": "오늘 가장 많이 쓴 물건은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-10",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 하루 중 가장 기다려지는 시간은?",
+   "evening": "그 시간은 어떻게 지나갔을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-11",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "쉬는 시간에 하고 싶은 일은?",
+   "evening": "다음 쉬는 시간에 해 보고 싶은 일은?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "쉬는 시간에 하고 싶은 일은?",
+     "evening": "오늘 쉬는 시간에는 무엇을 했을까?",
+     "reason": "저녁 질문 ‘쉬는 시간에는 무엇을 했을까?’는 쉬는 시간을 혼자 보내는 학생에게 그 시간을 다시 확인하게 함. 가볍게 앞을 보는 질문으로 바꿈"
+    }
+   ]
+  },
+  {
+   "id": "daily-12",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 점심 메뉴가 무엇이면 좋을까?",
+   "evening": "내일 점심 메뉴를 내가 정할 수 있다면?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "오늘 점심 메뉴가 무엇이면 좋을까?",
+     "evening": "오늘 기억에 남는 맛이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 명백한 중복: empathy-01, empathy-11과 거의 같은 형식"
+    }
+   ],
+   "eveningForm": "taste"
+  },
+  {
+   "id": "daily-13",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 아침 하늘은 어떤 모습이야?",
+   "evening": "저녁 하늘은 어땠을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-14",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "요즘 즐겨 하는 작은 습관은?",
+   "evening": "그 습관을 할 때 나는 어떤 기분일까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "요즘 즐겨 하는 작은 습관은?",
+     "evening": "오늘도 그 습관을 했을까?",
+     "reason": "저녁 질문 ‘오늘도 그 습관을 했을까?’는 실천 여부 확인"
+    }
+   ]
+  },
+  {
+   "id": "daily-15",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 입은 옷 중 마음에 드는 부분은?",
+   "evening": "하루를 함께한 옷에게 한마디 한다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-16",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 공책이나 화면 배경을 바꾼다면 어떤 그림으로?",
+   "evening": "오늘 하루를 배경 그림으로 만든다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-17",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "지금 가장 가까이 있는 물건 세 가지는?",
+   "evening": "그중 오늘 가장 고마웠던 물건은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-18",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 하루 중 가장 조용할 것 같은 순간은?",
+   "evening": "오늘 가장 조용했던 순간은 언제였을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-19",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 기분에 어울리는 양말 색은?",
+   "evening": "지금 기분에 어울리는 색은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-20",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 아침 처음 들은 소리는?",
+   "evening": "오늘 마지막으로 기억에 남는 소리는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-21",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 꼭 하고 싶은 아주 작은 일 하나는?",
+   "evening": "오늘 한 작은 일 중 기억나는 것은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-22",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 걷는 길에 노래를 붙인다면?",
+   "evening": "하루를 마치는 지금 어울리는 노래는?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-23",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 아침 거울 속 나에게 인사한다면?",
+   "evening": "지금 거울 속 나에게 인사한다면?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-24",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "요즘 가장 맛있게 먹은 음식은?",
+   "evening": "그 음식을 다시 먹는다면 어디에서 먹고 싶어?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-25",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 책상 위에서 가장 먼저 보이는 것은?",
+   "evening": "하루가 끝난 지금 책상 위는 어떤 모습일까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-26",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "지금 주변에서 동그란 물건을 찾아볼까?",
+   "evening": "찾은 동그란 것 중 하나에 이름을 붙인다면?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "지금 주변에서 동그란 물건을 찾아볼까?",
+     "evening": "오늘 찾은 재미있는 모양이 있었을까?",
+     "reason": "5-2 후속 질문 정리: 가벼운 질문의 같은 형식 반복"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "daily-27",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 하루를 버스 노선처럼 그린다면 몇 개의 정류장이 있을까?",
+   "evening": "오늘 가장 오래 머문 정류장은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-28",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 써 보고 싶은 색깔 펜은?",
+   "evening": "오늘 가장 많이 쓴 색은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-29",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 아침 가장 먼저 한 일은?",
+   "evening": "오늘 마지막으로 하고 싶은 일은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-30",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "요즘 즐겨 보는 영상이나 프로그램은?",
+   "evening": "오늘 본 것 중 재미있었던 장면이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-31",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 손에 가장 오래 쥐고 있을 것 같은 물건은?",
+   "evening": "오늘 내 손이 가장 많이 한 일은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-32",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 눈여겨볼 간판이나 글자를 찾아볼까?",
+   "evening": "나만의 간판을 단다면 뭐라고 쓸까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "오늘 눈여겨볼 간판이나 글자를 찾아볼까?",
+     "evening": "오늘 본 재미있는 글자가 있었을까?",
+     "reason": "5-2 후속 질문 정리: 가벼운 질문의 같은 형식 반복"
+    }
+   ],
+   "eveningForm": "imagine"
+  },
+  {
+   "id": "daily-33",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 하루 어디어디를 다닐 것 같아?",
+   "evening": "오늘 가장 멀리 간 곳은 어디였을까?",
+   "version": "2.0.1",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "revise",
+    "grade": "공통"
+   },
+   "history": [
+    {
+     "version": "2.0.0",
+     "morning": "오늘 하루 몇 걸음쯤 걸을 것 같아?",
+     "evening": "오늘 가장 멀리 간 곳은 어디였을까?",
+     "reason": "걸음 수는 이동이 어려운 학생에게 맞지 않고 수치 기록처럼 느껴질 수 있음"
+    }
+   ]
+  },
+  {
+   "id": "daily-34",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "요즘 즐겨 먹는 급식 메뉴나 간식은?",
+   "evening": "오늘 먹은 것 중 다시 먹고 싶은 것이 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-35",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 아침 공기 냄새는 어땠어?",
+   "evening": "저녁 공기는 아침과 어떻게 다를까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-36",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 누군가와 나누고 싶은 재미있는 이야기 하나는?",
+   "evening": "오늘 들은 재미있는 이야기가 있었을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-37",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 머리 모양에 이름을 붙인다면?",
+   "evening": "하루를 보낸 머리 모양은 어떻게 변했을까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-38",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "지금 앉아 있는 자리의 좋은 점 하나는?",
+   "evening": "오늘 앉았던 자리 중 가장 편했던 곳은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-39",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 쓰는 물건 중 가장 오래된 것은?",
+   "evening": "그 물건과 함께한 시간은 얼마나 될까?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  },
+  {
+   "id": "daily-40",
+   "domain": "daily",
+   "type": "light",
+   "light": true,
+   "morning": "오늘 하루에 제목을 미리 붙인다면?",
+   "evening": "오늘 하루의 진짜 제목은?",
+   "version": "2.0.0",
+   "reviewStatus": "expert_review_pending",
+   "qualityReview": {
+    "stage": "5-1",
+    "result": "keep",
+    "grade": "공통"
+   }
+  }
+ ]
+}
